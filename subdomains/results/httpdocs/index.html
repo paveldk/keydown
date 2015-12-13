@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head>
+	<meta charset='UTF-8'>
+    <title>Total tweets</title>
+    <style type="text/css">
+    /*
+    input {
+      float: left;
+      clear: both;
+    }
+    */
+    </style>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" charset="UTF-8">
+    
+Array.prototype.contains = function(obj) {
+    var i = this.length;
+    while (i--) {
+        if (this[i] === obj) {
+            return true;
+        }
+    }
+    return false;
+}	
+var getPage = new RegExp( /page=([^&]+)/ );
+var url = "http://search.twitter.com/search.json?q=";
+var search, page, pageTotal, tweets, loading;
+var beforeCounter = "<b>";
+var afterCounter = "</b>";
+var totalTweets = 0;
+
+var users = [];
+
+function getTweets(search, page, pageTotal) {
+  $.getJSON( url + search + '&include_entities=true&page=' + page + '&rpp=100&callback=?',
+    function(data) {
+	if(!data.error)
+	{
+      if( data.results.length != 0 && page != pageTotal ) {
+        $('#pagesDone span').html('loading all data from twitter page: ' + page);
+        getData(data);
+      }
+	  else {
+        showTotal();
+      }
+	}
+      else {
+        showTotal();
+      }
+    }
+  );
+}
+
+function showTotal() {
+  var tot = beforeCounter + totalTweets + afterCounter;
+  if(proj == "#chicksbook @spaceapps")
+  {
+  $('#totalTweets').append("<li style='font-size: 30px; color: red;'>" + proj + " " + tot + "</li>");
+  }
+  else {
+  $('#totalTweets').append("<li>" + proj + " " + tot + "</li>");
+  }
+  $('#pagesDone span').html('0');
+  totalTweets = 0;
+  users = [];
+  i++;
+  
+  if(i<projects.length)
+  {
+	  proj = projects[i];
+      search = encodeURIComponent(projects[i]);
+	  getTweets(search, page, pageTotal);
+  }
+  else {
+  loading = false;
+  }
+}
+
+function getData(data) {
+  tweets = data.results;
+  for(var j = 0; j < tweets.length; j++)
+  {
+	if(!users.contains(tweets[j].from_user_id))
+	{
+		users.push(tweets[j].from_user_id);
+		totalTweets++;
+	}
+  }
+  //totalTweets += tweets.length;
+  nextPage = getPage.exec(data.next_page);
+  if( nextPage == null ) {
+    showTotal();
+    return;
+  }
+  nextPage = nextPage[1];
+  getTweets(search, nextPage, pageTotal);
+}
+
+function submitTerms() {
+  i = 0;
+  $('#totalTweets').html('');
+  $('#pagesDone span').html('0');
+  
+  page = 1;
+  pageTotal = 0;
+  if( search == '' ) {
+    alert('Please enter search query');
+    return;
+  }
+  if( page == 0 ) {
+    alert('0 not allowed as start page');
+    return;
+  }
+  loading = true;
+  projects = ["#discos @spaceapps", "#curiousinnepal @spaceapps", "#mearth @spaceapps", "#moonsettlergame @spaceapps", "#chicksbook @spaceapps", "#asteroidtriangulation @spaceapps", "#NASAinourhouse @spaceapps", "#perpetuality @spaceapps", "#whereonmarble @spaceapps", "#anapneo @spaceapps", "#popeyeonmars @spaceapps", "#curiosityroverblog @spaceapps", "#spotstationaut @spaceapps", "#spacecadetapp @spaceapps", "#greenhouseapp @spaceapps", "#openspacemap @spaceapps", "#moonroverapp @spaceapps", "#LEGOexplorers @spaceapps", "#astex @spaceapps", "#cubeworld @spaceapps", "#marsmet @spaceapps", "#discovery3dapp @spaceapps", "#juegocuriosity @spaceapps", "#road2stars @spaceapps", "#bigmarbleapp @spaceapps", "#cosmicsays @spaceapps", "#familyplanningapp @spaceapps", "#culichisrover @spaceapps", "#viveroapp @spaceapps", "#arduhack @spaceapps", "#webroverapp @spaceapps", "#cupolariver @spaceapps", "#greatexplorerapp @spaceapps", "#NASAgreenercities @spaceapps", "#starhopperapp @spaceapps", "#terrafarmingapp @spaceapps", "#creatorsproject @spaceapps", "#syncspaceapp @spaceapps", "#spottheissapp @spaceapps", "#instamars @spaceapps", "#mentorapp @spaceapps", "#lebluemarvel @spaceapps", "#energyexplorerapp @spaceapps", "#spacetrekapp @spaceapps", "#openTEC @spaceapps", "#solapp @spaceapps", "#stellarstuffapp @spaceapps", "#karkhanarover @spaceapps", "#spaceviewapp @spaceapps", "#redtogreen @spaceapps", "#safariapophis @spaceapps", "#rendezvousgame @spaceapps", "#spaceappsrocket @spaceapps", "#asteroidocculator @spaceapps", "#xspacious @spaceapps", "#marssense @spaceapps", "#enermap @spaceapps", "#projectsoil @spaceapps", "#teeminus10 @spaceapps", "#fallingstarfinder @spaceapps", "#energy2people @spaceapps", "#lamotherearthapp @spaceapps", "#whyweexploreapp @spaceapps", "#ispotitapp @spaceapps", "#boke @spaceapps", "#catchameteor @spaceapps", "#adruinopiapp @spaceapps", "#MexiLEGO @spaceapps", "#aquaping @spaceapps", "#promeapp @spaceapps", "#willireachapp @spaceapps", "#mapgapapp @spaceapps", "#spacecalnyc @spaceapps", "#tinyseabots @spaceapps", "#discoverymarsapp @spaceapps", "#OKtomars @spaceapps", "#wafatetomars @spaceapps", "#NXTapps @spaceapps", "#issbasestationapp @spaceapps", "#earthkamapp @spaceapps", "#Twistoric @spaceapps", "#PicStoria @spaceapps", "#spacedecode @spaceapps", "#neovizapp @spaceapps", "#skyviewapp @spaceapps", "#hellocuriosityapp @spaceapps", "#commandROV @spaceapps", "#MS3P%20 @spaceapps", "#SpaceHub @spaceapps", "#greenonredapp @spaceapps", "#spacecalapp @spaceapps", "#leapROV @spaceapps", "#skylogneowsapp @spaceapps", "#starsinthecloudapp @spaceapps", "#ariss @spaceapps", "#compassstation @spaceapps", "#LEGOrobot @spaceapps", "#SpotApp @spaceapps", "#inventaRD @spaceapps", "#sismoapp @spaceapps", "#LEGOrover @spaceapps", "#angryplanets @spaceapps", "#forecastapp @spaceapps", "#ardusat2earth @spaceapps", "#ghostapp @spaceapps", "#leapforEuropa @spaceapps", "#opentiles @spaceapps", "#launchpadmoon @spaceapps", "#Meteorienteer @spaceapps", "#spaceveggies @spaceapps", "#personalcosmos @spaceapps", "#cloudlessspots @spaceapps", "#auroralocalization @spaceapps", "#intergalacticspecies @spaceapps", "#POMproject @spaceapps", "#myearthapp @spaceapps", "#watchtowerapp @spaceapps", "#waystationapp @spaceapps", "#inboundapp @spaceapps", "#asterank @spaceapps", "#livingonmarsapp @spaceapps", "#arduImuv4 @spaceapps", "#OTGYork @spaceapps", "#teamcentauri @spaceapps"];
+  proj = projects[0];
+  search = encodeURIComponent(projects[0]);
+  getTweets(search, page, pageTotal);
+  
+}
+
+function status() {
+  if( loading ) $('#loading,#pagesDone').show();
+  else $('#loading,#pagesDone').hide();
+}
+
+$(function() {
+  loading = false;
+  setInterval(status, 10);
+});
+
+    </script>
+  </head>
+  <body>
+	<h1>This is not official page - we just created it so we can monitor the voting</h1>
+    <h1>NASA International Space Apps Challenge Counter</h1>
+    <form action="" method="get" onsubmit="submitTerms(); return false;">
+      <input id="submit" name="submit" type="submit" value="Show Results" />
+    </form>
+    <ol id="totalTweets"></ol>
+    <br />
+    <div id="loading" style="display:none;">Loading!</div>
+    <div id="pagesDone" style="display:none;">Pages done: <span></span></div>
+    <span style="display:none;">Do Electric Cars Pollute More Than Their Gasoline Counterparts</span>
+  </body>
+</html>

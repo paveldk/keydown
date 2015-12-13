@@ -1,0 +1,56 @@
+﻿@model Sunglasses___Web.Models.HomeModel
+@{
+    ViewBag.Title = "Слънчеви очила";
+}
+
+@section header
+{
+    <link href="~/Content/home.css" rel="stylesheet" />
+    <link href="~/Content/nivo-slider.css" rel="stylesheet" />
+}
+
+<div class="home-dark">
+    <section id="slider" class="nivoSlider">
+        @foreach (var image in @Model.Images)
+        {
+            <img src="@image.ImagePath" title="@image.ImageText" />
+        }
+    </section>
+</div>
+
+<div class="home-panel-wrap">
+    <section class="home-panel">
+        @Html.Raw(Model.DiscountText)
+    </section>
+</div>
+<div class="home-panel-wrap">
+    <nav id="mid-nav">
+        <ul class="clearfix">
+            <li><a href="../brands/type/слънчеви очила">Слънчеви очила</a></li>
+            <li><a href="../brands/type/диоптрични очила">Диоптрични очила</a></li>
+            <li><a href="../brands/type/лещи">Контактни лещи</a></li>
+            <li><a href="../home/search?outlet=checked">Outlet</a></li>
+            <li><a href="../brands/type/други">Други</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="home-dark">
+    <section>
+        <ul id="img-nav" class="clearfix">
+            <li class="greyscale left" id="mid-nav-new"><a href="./Products/Recent">Нови</a></li>
+            <li class="greyscale left" id="mid-nav-rec"><a href="./Products/Featured">Препоръчани</a></li>
+            <li class="greyscale left" id="mid-nav-out"><a href="./Home/Search?outlet=checked">Разпродажба</a></li>
+            <li class="greyscale left" id="mid-nav-shape"><a href="./Products/Faceshape"></a></li>
+        </ul>
+    </section>
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/sunglasses/jquery.nivo.slider.pack.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#slider').nivoSlider();
+        });
+    </script>
+}

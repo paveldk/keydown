@@ -1,0 +1,27 @@
+﻿@model Sunglasses___Web.Models.BrandsModel
+
+@{
+    ViewBag.Title = "Марки";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Type</h2>
+
+
+@{
+    if(Model.Brands.Count <= 0)
+    {
+        <h3>Не са открити Продуктови Марки в категория @Model.Type.</h3>
+    }
+    else
+    {
+    <ul class="list-brands">
+        @foreach (var item in Model.Brands) {
+            <li><a href="../../home/search?cat=@Model.Type&brand=@item.Name"><img src='@item.Image' alt='@item.Name' /></a></li>
+        }
+    </ul>
+    }
+}
+
+
+

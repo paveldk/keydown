@@ -1,0 +1,143 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SunglassesCMS.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/Styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="Styles/kendo.default.min.css" rel="stylesheet" />
+
+    <asp:PlaceHolder runat="server">
+        <script src="<%: ResolveUrl("~/Scripts/modernizr-2.6.2.js") %>"></script>
+        <script src="<%: ResolveUrl("~/Scripts/jquery-2.0.0.min.js") %>"></script>
+        <script src="<%: ResolveUrl("~/Scripts/kendo.all.min.js") %>"></script>
+    </asp:PlaceHolder>
+    <meta name="viewport" content="width=device-width" />
+
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+
+</head>
+<body>
+    <form runat="server">
+        <header>
+            <div class="content-wrapper">
+                <div class="float-right">
+                    <section id="login">
+                        <asp:LoginView runat="server" ViewStateMode="Disabled">
+                           
+                            <LoggedInTemplate>
+                                <p>
+                                    Здравей, <a runat="server" class="username" href="~/Account/Manage" title="Manage your account">
+                                        <asp:LoginName runat="server" CssClass="username" />
+                                    </a>!
+                                <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Излез" LogoutPageUrl="~/" />
+                                </p>
+                            </LoggedInTemplate>
+                        </asp:LoginView>
+                    </section>
+                    <nav>
+                        <asp:LoginView ID="LoginView1" runat="server" ViewStateMode="Disabled">
+                            <AnonymousTemplate>
+                                <p>Не сте влезли в системата</p>
+                            </AnonymousTemplate>
+                            <LoggedInTemplate>
+                                <p>You are not a member of the Administrators.</p>
+                            </LoggedInTemplate>
+                            <RoleGroups>
+                                <asp:RoleGroup Roles="Administrator">
+                                    <ContentTemplate>
+                                        <ul id="main-menu">
+                                            <%--<li><a runat="server" href="~/">Dashboard</a></li>--%>
+                                            <li><a runat="server" href="~/News/SunglassesNews.aspx">Новини</a></li>
+                                            <li><a runat="server" href="~/Pages/EditPage.aspx">Страници</a>
+                                                <ul>
+                                                    <li><a runat="server" href="~/Pages/EditPage.aspx">Страници</a></li>
+                                                    <li><a runat="server" href="~/Pages/HomePageImages.aspx">Изображения на начална страница</a></li>
+                                                    <li><a runat="server" href="~/Pages/AddHomePageImage.aspx">Добави изображение към начална страница</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a runat="server" href="~/Orders/AllOrders.aspx">Поръчки</a></li>
+                                            <li><a runat="server" href="~/Products/AllProductsByBrand.aspx">Продукти</a>
+                                                <ul>
+                                                    <li><a runat="server" href="~/Products/AddProduct.aspx">Добави нов продукт</a></li>
+                                                    <li><a runat="server" href="~/Products/AllProductsByBrand.aspx">Продукти по марка</a></li>
+                                                    <li><a runat="server" href="~/Products/AllFeaturedProducts.aspx">Продукти на фокус</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a runat="server" href="~/ProductBrands/EditProductBrand.aspx">Марки</a>
+                                                <ul>
+                                                    <li><a runat="server" href="~/ProductBrands/AddProductBrand.aspx">Добави нова марка</a></li>
+                                                    <li><a runat="server" href="~/ProductBrands/EditProductBrand.aspx">Промени марка</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a runat="server" href="~/Materials/EditMaterial.aspx">Материали</a>
+                                                <ul>
+                                                    <li><a runat="server" href="~/Materials/AddMaterial.aspx">Добави нов материал</a></li>
+                                                    <li><a runat="server" href="~/Materials/EditMaterial.aspx">Промени материал</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a runat="server" href="~/Colors/EditColor.aspx">Цветове</a>
+                                                <ul>
+                                                    <li><a runat="server" href="~/Colors/AddColor.aspx">Създай цвят</a></li>
+                                                    <li><a runat="server" href="~/Colors/EditColor.aspx">Промени цвят</a></li>
+                                                    <li><a runat="server" href="~/Colors/AddColorToProductType">Добави към категория</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a runat="server" href="~/Shapes/EditShape.aspx">Форми на лице</a>
+                                                <ul>
+                                                    <li><a runat="server" href="~/Shapes/AddShape.aspx">Създай форма</a></li>
+                                                    <li><a runat="server" href="~/Shapes/EditShape.aspx">Промени форма</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a runat="server" href="~/Discounts/AllDiscountCodes.aspx">Промо кодове</a>
+                                                <ul>
+                                                    <li><a runat="server" href="~/Discounts/AddDiscountCode.aspx">Генерирай нов промо код</a></li>
+                                                    <li><a runat="server" href="~/Discounts/AllDiscountCodes.aspx">Списък с генерирани промо кодове</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </ContentTemplate>
+                                </asp:RoleGroup>
+                            </RoleGroups>
+                        </asp:LoginView>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+            <section class="content-wrapper main-content clear-fix">
+                <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                </div>
+            </div>
+        </footer>
+    </form>
+    <style>
+        input{
+            border-radius:5px;
+        }
+        td, th {
+        padding-left:5px;
+        }
+        label {
+            font-weight:normal;
+            font-size:1em;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("#main-menu").kendoMenu();
+        });
+    </script>
+    <asp:ContentPlaceHolder runat="server" ID="ScriptsHolder" />
+</body>
+</html>

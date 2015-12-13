@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Big Bombs Game - KeyDown TM";
+}
+@section featured {
+    
+    <div id="site-wrapper">
+        <section id="login">
+            @Html.Partial("_LoginPartial")
+        </section>
+        <nav>
+            <ul id="main-nav" class="clearfix">
+                <li class="main-nav-box red"><a href="#">Single Player<br /><br /><span>under construction</span></a></li>            
+                <li class="main-nav-box green">@Html.ActionLink("Multi Player", "Multiplayer")</li>
+                <li class="main-nav-box blue"><a href="#">Hall of Fame</a></li>
+                <li class="main-nav-box red"><a href="#">Replays<br /><br /><br /><span>under construction</span></a></li>
+                <li class="main-nav-box green"><a href="#">About</a></li>
+            </ul>
+        </nav>    
+    </div>
+}

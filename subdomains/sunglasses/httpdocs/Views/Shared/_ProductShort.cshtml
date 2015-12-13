@@ -1,0 +1,11 @@
+﻿@model Sunglasses___Web.Models.ProductShortModel
+
+@{string url = "/product/" + Model.Brand + "/" + HttpUtility.UrlPathEncode(Model.Model.Replace("%", "%25")); }
+<a href="@url" title="@Model.Brand @Model.Model" class="product-short left">
+    <div class="discount-small">@Model.Discount%</div>
+    <div class="product-short-img">
+        <img src="~/Images/loader.gif" data-src="@Model.Image" alt="@Model.Model"  />
+    </div>
+    <h2>@Model.Brand @Model.Model</h2>
+    <p><del>@Model.OldPrice лв.</del> <span class="product-price">@Model.NewPrice лв.</span></p>
+</a>

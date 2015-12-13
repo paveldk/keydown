@@ -1,0 +1,337 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img
+{
+	border: 0;
+}
+html, body
+{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+body
+{
+	font: 12px "Segoe UI", "Times New Roman", sans-serif;
+	background: url('../images/background.jpg') center center no-repeat #000;
+}
+h1 
+{
+    font-size: 25px;
+    text-align: center;	
+}
+.left 
+{
+	float: left;
+}
+.right 
+{
+    float: right;
+}
+.clear 
+{
+	clear: both;
+}
+.clearfix:after
+{
+    content: "";
+    display: block;
+	clear: both;
+	height: 0;
+}
+p {
+	margin-top: 10px;
+}
+::-webkit-scrollbar {
+
+width: 15px;
+
+height: 15px;
+
+}
+
+::-webkit-scrollbar-button:start:decrement,
+
+::-webkit-scrollbar-button:end:increment {
+
+height: 1px;
+
+display: block;
+
+background-color: #EFF7FF;
+
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement,
+
+::-webkit-scrollbar-button:horizontal:end:increment {
+
+height: 1px;
+
+display: block;
+
+background-color: #EFF7FF;
+
+}
+
+::-webkit-scrollbar-track-piece {
+
+background-color: #EFF7FF;
+
+}
+
+::-webkit-scrollbar-thumb:vertical,
+
+::-webkit-scrollbar-thumb:horizontal
+
+{
+
+background-color: white;
+
+border: 1px solid #639ACE;
+
+-webkit-border-radius: 6px;
+
+}
+ul
+{
+	list-style-type: none;
+}
+
+#wrapper
+{
+	width: 800px;
+    height: 620px;
+    position: relative;
+    margin: 0 auto;
+}
+#main-menu 
+{
+	position: relative;
+}
+#main-menu li
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	width: 130px;
+	text-align: center;
+	border: 10px solid transparent;
+	border-radius: 10px;
+	-webkit-border-image: url('../images/border-menu.png') 10 10 round;
+	border-image: url('../images/border-menu.png') 10 10 round;
+}
+#main-menu li:hover 
+{
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(53, 126, 215, .75);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(53, 126, 215, .75);
+    box-shadow: 0px 0px 5px 2px rgba(53, 126, 215, .75);
+}
+#main-menu li a 
+{
+	display: block;
+	min-width: 30px;
+	text-align: center;
+	margin: -3px;
+	padding: 5px;
+	color: hsla(0,0%,20%,1);
+	font-size: 1.2rem;
+	font-weight: bolder;
+	text-decoration: none;
+	background-image: -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 6%, hsla(0,0%,100%, .1) 7.5%),	 -webkit-repeating-linear-gradient(left, hsla(0,0%, 0%,0) 0%, hsla(0,0%, 0%,0) 4%, hsla(0,0%, 0%,.03) 4.5%),	 -webkit-repeating-linear-gradient(left, hsla(0,0%,100%,0) 0%, hsla(0,0%,100%,0) 1.2%, hsla(0,0%,100%,.15) 2.2%), -webkit-linear-gradient(-90deg, hsl(0,0%,78%) 0%, hsl(0,0%,90%) 47%, hsl(0,0%,78%) 53%, hsl(0,0%,70%)100%);
+}
+
+#main-content
+{
+    background-color: rgba(200, 200, 200,0.4);
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(200, 200, 200,0.4);
+    box-shadow: 0px 0px 15px 5px rgba(200, 200, 200,0.4);
+    height: 100%;
+    padding: 0 25px;
+    margin: 0 -20px;
+    overflow: auto;
+}
+#main-content-wrapper
+{
+	width: 800px;
+	height: 620px;
+	position: relative;
+	margin: 0 auto;
+	border:30px solid transparent;
+	border-left-width: 50px;
+	border-right-width: 50px;
+	-webkit-border-image: url('../images/border.png') 63 100 stretch;
+	border-image: url('../images/border.png') 63 100 stretch;
+}
+
+#game-field
+{
+	width: 375px;
+	height: 375px;
+	margin: 10px auto;
+}
+
+@-webkit-keyframes redPulse {
+	from { -webkit-box-shadow: 0 0 20px #db4d4d; }
+	50% { -webkit-box-shadow: 0 0 100px #db4d4d; }
+	to { -webkit-box-shadow: 0 0 20px #db4d4d; }
+}
+
+@-webkit-keyframes greenPulse {
+	from { -webkit-box-shadow: 0 0 20px #4ddb4d; }
+	50% { -webkit-box-shadow: 0 0 100px #4ddb4d; }
+	to { -webkit-box-shadow: 0 0 20px #4ddb4d; }
+}
+.redbutton, .greenbutton
+{
+	background: url('../images/redbutton.png') 0 0 no-repeat;
+	width: 75px;
+	height: 75px;
+	border: 2px solid #000;
+	border-radius: 50px;
+	-webkit-animation-name: redPulse;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	position: absolute;
+	bottom: 350px;
+	left: 80px;
+}
+.greenbutton 
+{
+    background: url('../images/greenbutton.png') 0 0 no-repeat;
+	-webkit-animation-name: greenPulse;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;	
+}
+.redbutton:hover, .greenbutton
+{
+	cursor: pointer;
+}
+
+
+#fieldSettings, #foodSettings, #placedFood 
+{
+	width: 45%;
+	padding: 5px 10px;
+}
+#placedFood 
+{
+	display: none;
+}
+#foodSettings, #placedFood 
+{
+    height: 119px;
+}
+
+#holder-left
+{
+    position: absolute;
+    left: -200px;
+    top: -150px;
+	width: 200px;
+	height: 705px;
+	background: url('../images/holder-left.png') 0 0 no-repeat;
+}
+#holder-right 
+{
+	position: absolute;
+    right: -200px;
+    top: -150px;
+	width: 200px;
+	height: 705px;
+	background: url('../images/holder-right.png') right top no-repeat;
+}
+#glow-left 
+{
+    display: none;
+    width: 	85px;
+    height: 585px;
+    position: absolute;
+    right: -80px;
+    bottom: -20px;
+    background: url('../images/glow-left.png') 0 0 no-repeat;
+}
+#glow-right 
+{
+    display: none;
+    width: 	85px;
+    height: 585px;
+    position: absolute;
+    left: -80px;
+    bottom: -20px;
+    background: url('../images/glow-right.png') 0 0 no-repeat;
+}
+#stable, #detonation
+{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fff;	
+}
+#stable.greenbutton h4, #detonator h4{
+	font-size: 1.6rem;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+#stable.greenbutton span, #detonator span {
+	font-size: 0.9rem;
+}
+#detonator 
+{
+    padding-top: 10px;
+    color: #fff;
+    text-align: center;
+	width: 150px;
+	height: 75px;
+    position: absolute;
+	bottom: 398px;
+	left: 30px;
+	background: url('../images/detonator.png') 0 0 no-repeat;
+	text-shadow: 2px 2px #000;
+
+}
+#warning 
+{
+    text-align: center;	
+}
+
+#diary-a > article 
+{
+    border: 1px solid #03f;
+    background-color: rgba(0,100,255, 0.1);
+    margin: 10px 5px;
+    padding: 5px;	
+}
+
+#diary-a article span 
+{
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.astro {
+	display: block;
+	margin: 10px auto;
+	border: 2px solid #03f;
+}
+.button 
+{
+	border: 1px solid #03f;
+	padding: 3px;
+	background-color: rgba(0,100,255, 0.1);
+	margin-left: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+
+#foundings h2 
+{
+	text-align: center;
+}

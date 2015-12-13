@@ -1,0 +1,33 @@
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-06-28 18:44:15
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-06-28 18:44:14 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 178.255.215.92 HTTP/1.1 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) - - nonalga.keydown.org 404 0 2 1222 275 312
+2015-06-28 18:44:15 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 178.255.215.92 HTTP/1.1 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) - - nonalga.keydown.org 200 0 0 6615 265 265
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-06-29 00:57:10
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-06-29 00:57:09 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 123.125.71.75 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+rv:6.0.2)+Gecko/20100101+Firefox/6.0.2 - - nonalga.keydown.org 404 0 2 1222 191 670
+2015-06-29 01:01:39 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 220.181.108.168 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - nonalga.keydown.org 200 0 0 6615 227 546
+2015-06-29 01:01:40 W3SVC224 TANGO 91.196.125.129 GET /styles/modalbasic.css - 80 - 220.181.108.101 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 1199 252 234
+2015-06-29 01:01:41 W3SVC224 TANGO 91.196.125.129 GET /styles/styles.css - 80 - 220.181.108.117 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 6566 248 670
+2015-06-29 01:01:42 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/jquery.simplemodal.1.4.3.min.js - 80 - 220.181.108.107 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 10038 262 982
+2015-06-29 01:01:44 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/rotation.js - 80 - 220.181.108.149 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 4909 242 670
+2015-06-29 01:01:45 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/rotate-css.js - 80 - 220.181.108.116 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 4909 244 624
+2015-06-29 01:01:48 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/RequestAnimationFrame.js - 80 - 220.181.108.76 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 803 255 202
+2015-06-29 01:01:49 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/kinetic.js - 80 - 220.181.108.99 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 296661 241 2152
+2015-06-29 01:01:52 W3SVC224 TANGO 91.196.125.129 GET /scripts/algo/AlgaeExperiment.js - 80 - 220.181.108.159 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 101284 247 1591
+2015-06-29 01:01:53 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/vibrate.js - 80 - 220.181.108.102 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 2750 238 390
+2015-06-29 01:01:53 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/rotate.js - 80 - 220.181.108.85 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 2588 237 327
+2015-06-29 01:01:54 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/gameGrid.js - 80 - 220.181.108.81 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 1773 239 327
+2015-06-29 01:01:55 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/food.js - 80 - 123.125.71.80 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 552 235 405
+2015-06-29 01:01:56 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/nonalga.js - 80 - 123.125.71.87 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 263 238 421
+2015-06-29 01:01:58 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/gameOfLife.js - 80 - 123.125.71.103 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 5759 241 811
+2015-06-29 01:02:00 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/siteController.js - 80 - 123.125.71.87 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 43006 245 1528
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-06-29 23:29:08
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-06-29 23:29:08 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 178.255.215.92 HTTP/1.1 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) - - nonalga.keydown.org 404 0 2 1222 275 234
+2015-06-29 23:29:08 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 178.255.215.92 HTTP/1.1 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) - - nonalga.keydown.org 400 0 87 1377 350 249

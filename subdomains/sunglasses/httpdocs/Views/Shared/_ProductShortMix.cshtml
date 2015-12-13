@@ -1,0 +1,9 @@
+﻿@model Sunglasses___Web.Models.ProductShortMixModel
+
+<a href="/product/@Model.Brand/@Model.Model" title="@Model.Brand @Model.Model" class="product-short">
+    <div class="product-short-img">
+        <img src="@Model.Image" alt="@Model.Model" />
+    </div>
+    <h2>@Model.Brand @Model.Model</h2>
+    <p><del>@Model.OldPrice лв.</del> <span class="product-price">@Model.NewPrice лв.</span></p>
+</a>

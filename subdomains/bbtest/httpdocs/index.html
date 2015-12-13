@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="oauth.js"></script>
+</head>
+<body>
+	<input type="text" />
+	<button id="getCode">Get Code</button>
+	<button id="createRepo">Create Repo</button>
+	<button id="search">Search</button>
+	<button id="getCollaborators">Get Collaborators</button>
+	<button id="addCollaborator">Add Collaborator</button>
+
+
+	<button id="getRepo">Get Repo</button>
+	<button id="bitbucket">Bit Bucket</button>
+	<button id="bitbucketCreateRepo">Create Repo</button>
+	<script>
+		$(document).ready(function () {
+			$("#getCode").on("click", function () {
+				hello.login("github", { scope: "repo" });
+			});
+
+			$("#createRepo").on("click", function () {
+				var data = JSON.stringify({
+					"name": "Hello-WorldNICE",
+					"private": true
+				});
+				var auth = hello.getAuthResponse('github').access_token;
+				$.ajax({
+					url: "https://api.github.com/user/repos?access_token=" + auth + "&scope=repo",
+					dataType: 'json',
+					type: "post",
+					data: data,
+					success: function (data) {
+						debugger;
+					},
+					error: function (e) {
+						debugger;
+					}
+				});
+			});
+
+			$("#bitbucket").on("click", function () {
+				hello.login("bitbucket");
+			});
+
+			$("#getRepo").on("click", function () {
+				hello.api("me", function (json) {
+					debugger;
+				});
+			});
+
+			$("#bitbucketCreateRepo").on("click", function () {
+				$.ajax({
+					url: "https://bitbucket.org/api/1.0/user/",
+					type: "get",
+					beforeSend: function (xhr) {
+						xhr.setRequestHeader('Authorization', ["Basic", "aS5wYXZlbGtvbGV2QGdtYWlsLmNvbTo4OTA2MDc1NTYwYQ=="].join(" "));
+					},
+					success: function (data) {
+						debugger;
+					},
+					error: function (e) {
+						debugger;
+					}
+				});
+			});
+		});
+		hello.init({
+			github: "e1db40af3b38d51f6dc3",
+			bitbucket: "u7prVGJ8N9mKwq3vmG",
+		}, { redirect_uri: 'http://bbtest.keydown.org/index.html' });
+
+		hello.subscribe('auth.login', function (auth) {
+			debugger;
+		});
+	</script>
+</body>
+</html>

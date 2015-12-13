@@ -1,0 +1,459 @@
+﻿@model Sunglasses___Web.Models.SearchModel
+@{
+    ViewBag.Title = "Търсене";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section header
+{
+    <link href="~/Content/purple.css" rel="stylesheet" />
+    <link href="~/Content/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" />
+    <link href="~/Content/dd.css" rel="stylesheet" />
+}
+
+
+
+@using (Ajax.BeginForm("Search", "Home",
+    new AjaxOptions
+    {
+        HttpMethod = "POST",
+        InsertionMode = InsertionMode.Replace,
+        UpdateTargetId = "search-results-inner",
+        LoadingElementId = "loader",
+        OnBegin = "clearResults",
+        OnComplete = "showResults"
+    },
+    new { id = "frmSearch" }
+    ))
+{
+
+    <section id="search-options" class="left">
+        <h3>Търси по:</h3>
+        <ul>
+            <li class="search-area">
+                <h2 class="search-header">Категория</h2>
+                <ul class="search-criteria category">
+                    <li class="search-input-holder">
+                        @Html.RadioButtonFor(x => x.ProductType, '1', new { name = "productType", id = "sun" })
+                        <label for="sun">Слънчеви очила</label>
+                    </li>
+                    <li class="search-input-holder">
+                        @Html.RadioButtonFor(x => x.ProductType, '2', new { name = "productType", id = "eye" })
+                        <label for="eye">Диоптрични очила</label>
+                    </li>
+                    <li class="search-input-holder">
+                        @Html.RadioButtonFor(x => x.ProductType, '3', new { name = "productType", id = "lens" })
+                        <label for="lens">Лещи</label>
+                    </li>
+                    <li class="search-input-holder">
+                        @Html.RadioButtonFor(x => x.ProductType, '4', new { name = "productType", id = "oth" })
+                        <label for="oth">Други</label>
+                    </li>
+                </ul>
+            </li>
+            <li class="search-area">
+                <h2 class="search-header">Outlet</h2>
+                <ul class="search-criteria">
+                    <li class="search-input-holder">
+                        @Html.CheckBoxFor(x => x.Outlet, new { id = "cbOutlet" })
+                        <label for="cbOutlet">Outlet</label>
+                    </li>
+                </ul>
+            </li>
+            <li class="search-area">
+                <h2 class="search-header">Технология</h2>
+                <ul class="search-criteria">
+                    <li class="search-input-holder">
+                        @Html.CheckBoxFor(x => x.Polorized, new { id = "cbPolarized" })
+                        <label for="cbPolarized">Полароид</label>
+                    </li>
+                </ul>
+            </li>
+            <li class="search-area">
+                <h2 class="search-header">Пол</h2>
+                <ul class="search-criteria">
+                    <li class="search-input-holder">
+                        @Html.RadioButtonFor(x => x.Gender, 'M', new { name = "gender", id = "male" })
+                        <label for="male">Мъжки</label>
+                    </li>
+                    <li class="search-input-holder">
+                        @Html.RadioButtonFor(x => x.Gender, 'F', new { name = "gender", id = "female" })
+                        <label for="female">Дамски</label>
+                    </li>
+                    <li class="search-input-holder">
+                        @Html.RadioButtonFor(x => x.Gender, 'U', new { name = "gender", id = "unisex" })
+                        <label for="unisex">Универсални</label>
+                    </li>
+                    <li class="search-input-holder">
+                        @Html.RadioButtonFor(x => x.Gender, 'K', new { name = "gender", id = "kids" })
+                        <label for="kids">Детски</label>
+                    </li>
+                </ul>
+            </li>
+            <li class="search-area">
+                <h2 class="search-header">Цена</h2>
+                <div class="search-criteria">
+                    @Html.HiddenFor(x => x.MinPrice, new { id = "minPrice" })
+                    @Html.HiddenFor(x => x.MaxPrice, new { id = "maxPrice" })
+                    <label for="amount">Цена:</label>
+                    <input type="text" id="amount" />
+                    <div class="clearfix">
+                        <span class="left">0 лв.</span>
+                        <span class="right">500 лв.</span>
+                    </div>
+                    <div id="slider-price"></div>
+                </div>
+            </li>
+            <li class="search-area">
+                <h2 class="search-header">Марка</h2>
+                <ul class="search-criteria">
+                    @foreach (var mdl in Model.Brands)
+                    {
+                        <li class="search-input-holder">
+                            <input type="checkbox" name="brands" data-brandid="@mdl.Id" id="@mdl.CustomId" data-types="@string.Join(" ", mdl.Types.ToArray())"
+                                 @if (mdl.IsChecked) { @Html.Raw("checked"); }>
+                            <label for="@mdl.CustomId">@mdl.Name</label>
+                        </li>
+                    }
+                </ul>
+                @Html.HiddenFor(x => x.BrandsFilter, new { id = "brandsFilter" })
+            </li>
+            <li class="search-area">
+                <h2 class="search-header">Цвят</h2>
+                <ul class="search-criteria clearfix">
+                    @foreach (var clr in Model.Colors)
+                    {
+                        <li class="search-input-holder left">
+                            <input type="checkbox" name="colors" data-colorid="@clr.Id" id="@clr.CustomId" data-types="@string.Join(" ", clr.Types.ToArray())">
+                            <div class="box-color" style="background-color: @clr.Name"></div>
+                        </li>
+                    }
+                </ul>
+                @Html.HiddenFor(x => x.ColorsFilter, new { id = "colorsFilter" })
+            </li>
+            <li class="search-area">
+                <h2 class="search-header">Материал</h2>
+                <ul class="search-criteria">
+                    @foreach (var mtr in Model.Materials)
+                    {
+                        <li class="search-input-holder">
+                            <input type="checkbox" name="materials" data-materialid="@mtr.Id" id="@mtr.CustomId">
+                            <label for="@mtr.CustomId">@mtr.Name</label>
+                        </li>
+                    }
+                </ul>
+                @Html.HiddenFor(x => x.MaterialsFilter, new { id = "materialsFilter" })
+            </li>
+            <li class="search-area">
+                <h2 class="search-header">Форма на лице</h2>
+                <ul class="search-criteria">
+                    @foreach (var fs in Model.FaceShapes)
+                    {
+                        <li class="search-input-holder">
+                            <input type="checkbox" name="faceshapes" data-faceshapeid="@fs.Id" id="@fs.CustomId" @if (fs.isChecked) { @Html.Raw("checked"); }>
+                            <label for="@fs.CustomId">@fs.Name</label>
+                        </li>
+                    }
+                </ul>
+                @Html.HiddenFor(x => x.FaceShapesFilter, new { id = "faceshapesFilter" })
+            </li>
+
+        </ul>
+    </section>
+}
+<section id="search-results-wrap" class="left panel">
+
+    <div class="clearfix">
+        <div class="left sorting">
+            <span class="bold">Сортиране по:</span>
+            <select name="sorting" id="sorting">
+                <option value="1">Цена възходящо</option>
+                <option value="2">Цена низходящо</option>
+                <option value="3">Отстъпка възходящо</option>
+                <option value="4">Отстъпка низходящо</option>
+                <option value="5">Рейтинг възходящо</option>
+                <option value="6">Рейтинг низходящо</option>
+            </select>
+        </div>
+        <div class="right">
+            <span class="bold">Покажи:</span>
+            <select name="pages" id="pages">
+                <option value="1">16</option>
+                <option value="2">32</option>
+                <option value="3">64</option>
+                <option value="4">128</option>
+                <option value="5">Всички</option>
+            </select>
+        </div>
+    </div>
+    <h2 id="no-results">Няма намерени продукти. Моля опитайте търсене по други критерии.</h2>
+    <img src="~/Images/ajax-loader.gif" id="loader" />
+    <div id="search-results-inner">
+        <ul id="search-results" class="clearfix content">
+            @foreach (var prd in @Model.MatchingProducts)
+            {
+                <li data-price="@prd.NewPrice" data-disc="@prd.Discount" data-rate="@prd.Rate">
+                    @Html.Partial("_ProductShort", prd)
+                </li>
+            }
+        </ul>
+    </div>
+</section>
+@section scripts
+{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/sunglasses/jquery.icheck.min.js"></script>
+    <script src="~/Scripts/sunglasses/easypaginate.js"></script>
+    <script src="~/Scripts/sunglasses/jquery.dd.min.js"></script>
+    <script src="~/Scripts/sunglasses/jquery.tinysort.min.js"></script>
+    <script>
+
+
+
+        function submitForm() {
+            $('form#frmSearch').trigger('submit');
+        }
+
+        function clearResults() {
+            $("#search-results").fadeOut("fast");
+            $("#no-results").fadeOut("fast");
+            var oDropdown = $("#sorting").msDropdown().data("dd");
+            oDropdown.set("selectedIndex", 0);
+        }
+        function showResults() {
+            if ($('#search-results').children().length > 0) {
+                $("#search-results").fadeIn("slow");
+                createPages();
+                $("img").unveil();
+            }
+            else {
+                $("#no-results").fadeIn("slow");
+            }
+        }
+        var stepDefault = 16;
+        function createPages() {
+            $('#search-results').easyPaginate({
+                step: stepDefault,
+                nextprev: false
+            });
+        }
+        function removePages() {
+            $('#pagination').remove();
+        }
+
+        $(document).ready(function () {
+            beforeSubmit();
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_minimal-purple',
+                radioClass: 'iradio_minimal-purple',
+                increaseArea: '20%'
+            });
+
+            $(".search-header").on("click", function () {
+                $that = $(this);
+                if ($that.next().is(':visible')) {
+                    $that.next().slideUp("fast");
+                }
+                else {
+                    $that.next().slideDown("fast");
+                }
+            });
+
+            function hideFiltes(id) {
+                $('input[name="brands"]').each(function () {
+                    showMatchingFilter(this, id);
+                });
+                $('input[name="colors"]').each(function () {
+                    showMatchingFilter(this, id);
+                });
+            }
+            
+            var idToHide = $(".category input[checked]").val();
+            hideFiltes(idToHide);
+
+            $("#sun").on("ifChecked", function () {
+                hideFiltes("1");
+            });
+
+            $("#eye").on("ifChecked", function () {
+                hideFiltes("2");
+            });
+
+            $("#lens").on("ifChecked", function () {
+                hideFiltes("3");
+            });
+
+            $("#oth").on("ifChecked", function () {
+                hideFiltes("4");
+            });
+
+            function showMatchingFilter(elem, id) {
+                var el = $(elem).parent(),
+                    currentEl = $(elem);
+                el.removeClass('checked');
+                if (currentEl.data("types").toString().indexOf(id) > -1) {
+                    el.parent().show();
+                }
+                else el.parent().hide();
+            }
+
+            $("#slider-price").slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [50, 250],
+                slide: function (event, ui) {
+                    $("#amount").val(ui.values[0] + " лв. - " + ui.values[1] + " лв.");
+                    $("#minPrice").val(ui.values[0]);
+                    $("#maxPrice").val(ui.values[1]);
+                }
+            });
+            $("#amount").val($("#slider-price").slider("values", 0) +
+              " лв. - " + $("#slider-price").slider("values", 1) + " лв.");
+
+            $("#slider-price").on("slide", function () {
+                beforeSubmit();
+            });
+
+            $('input').on("ifToggled", function () {
+                beforeSubmit();
+            });
+
+            $("body select").msDropDown({
+                visibleRows: 9
+            });
+
+            var oDropdown = $("#sorting").msDropdown().data("dd");
+            oDropdown.on("change", function () {
+                var val = $(this).val();
+                switch (val) {
+                    case "1": {
+                        $('#search-results>li').tsort({ data: 'price', order: 'asc' });
+                        createPages();
+                        break;
+                    }
+                    case "2": {
+                        $('#search-results>li').tsort({ data: 'price', order: 'desc' });
+                        createPages();
+                        break;
+                    }
+                    case "3": {
+                        $('#search-results>li').tsort({ data: 'disc', order: 'asc' });
+                        createPages();
+                        break;
+                    }
+                    case "4": {
+                        $('#search-results>li').tsort({ data: 'disc', order: 'desc' });
+                        createPages();
+                        break;
+                    }
+                    case "5": {
+                        $('#search-results>li').tsort({ data: 'rate', order: 'asc' });
+                        createPages();
+                        break;
+                    }
+                    case "6": {
+                        $('#search-results>li').tsort({ data: 'rate', order: 'desc' });
+                        createPages();
+                        break;
+                    }
+                    default: {
+                        $('#search-results>li').tsort({ data: 'price', order: 'asc' });
+                        break;
+                    }
+        
+                }
+            });
+
+            var oDropDownPages = $("#pages").msDropdown().data("dd");
+            oDropDownPages.on("change", function () {
+                var val = $(this).val();
+                switch (val) {
+                    case "1": {
+                        stepDefault = 16;
+                        createPages();
+                        $("#search-results").height(700);
+                        break;
+                    }
+                    case "2": {
+                        stepDefault = 32;
+                        createPages();
+                        $("#search-results").height(1400);
+                        break;
+                    }
+                    case "3": {
+                        stepDefault = 64;
+                        createPages();
+                        $("#search-results").height(2800);
+                        break;
+                    }
+                    case "4": {
+                        stepDefault = 128;
+                        createPages();
+                        $("#search-results").height(5600);
+                        break;
+                    }
+                    case "5": {
+                        $('#search-results').children().each(function (i) {
+                            console.log(this.timer);
+                            if (this.timer) {
+                                clearTimeout(this.timer);
+                            }
+                            var child = $(this);
+                            child.hide();
+                            var step = $('#search-results').children().length;
+                            this.timer = setTimeout(function () { child.fadeIn('fast') }, (i - (Math.floor(i / step) * step)) * 100);
+                        });;
+
+                        removePages();
+                        $("#search-results").height(parseInt($('#search-results').children().length / 4) * 175 + 175);
+                        break;
+                    }
+                    default: {
+                        stepDefault = 16;
+                        createPages();
+                        break;
+                    }
+                }
+            });
+
+        });
+        var action, brandsFilter = [], colorsFilter = [], faceshapesFilter = [], materialsFilter = [];
+        function beforeSubmit() {
+            brandsFilter = []; colorsFilter = []; faceshapesFilter = []; materialsFilter = [];
+            if (action) {
+                clearTimeout(action);
+            }
+            action = setTimeout(function () {
+                $('input[name="brands"]').each(function () {
+                    if ($(this).parent().hasClass('checked')) {
+                        brandsFilter.push($(this).data('brandid'));
+                    }
+                });
+                $('input[name="colors"]').each(function () {
+                    if ($(this).parent().hasClass('checked')) {
+                        colorsFilter.push($(this).data('colorid'));
+                    }
+                });
+                $('input[name="faceshapes"]').each(function () {
+                    if ($(this).parent().hasClass('checked')) {
+                        faceshapesFilter.push($(this).data('faceshapeid'));
+                    }
+                });
+                $('input[name="materials"]').each(function () {
+                    if ($(this).parent().hasClass('checked')) {
+                        materialsFilter.push($(this).data('materialid'));
+                    }
+                });
+                $('#brandsFilter').val(brandsFilter.join(","));
+                $('#colorsFilter').val(colorsFilter.join(","));
+                $('#materialsFilter').val(materialsFilter.join(","));
+                $('#faceshapesFilter').val(faceshapesFilter.join(","));
+                submitForm();
+            }, 500);
+        }
+
+    </script>
+}

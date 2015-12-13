@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Sunglasses___Web.Models.ProductShortModel>
+
+<ul id="search-results" class="clearfix">
+    @foreach (var prd in @Model)
+    {
+    <li data-price="@prd.NewPrice" data-disc="@prd.Discount" data-rate="@prd.Rate">
+    @Html.Partial("_ProductShort", prd)
+    </li>
+    }
+</ul>

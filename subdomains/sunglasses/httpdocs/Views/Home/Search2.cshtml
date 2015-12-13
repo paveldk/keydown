@@ -1,0 +1,211 @@
+﻿@model Sunglasses___Web.Models.SearchModel
+@{
+    ViewBag.Title = "Търсене";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section header
+{
+    <link href="~/Content/purple.css" rel="stylesheet" />
+    <link href="~/Content/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" />
+}
+
+<section id="search-options" class="left">
+    <h3>Търси по:</h3>
+    <ul>
+        <li class="search-area">
+            <h2 class="search-header">Технология</h2>
+            <ul class="search-criteria">
+                <li class="search-input-holder filter" data-filter="polarized" >
+                    @Html.CheckBoxFor(x => x.Polorized, new { id="cbPolorized" })
+                    <label for="cbPolorized">Полароид</label>
+                </li>
+            </ul>
+        </li>
+        <li class="search-area">
+            <h2 class="search-header">Пол</h2>
+            <ul class="search-criteria">
+                <li class="search-input-holder">
+                    <input type="radio" name="gender" id="rbMale" >
+                    <label for="rbMale">Мъжки</label>
+                </li>
+                <li class="search-input-holder">
+                    <input type="radio" name="gender" id="rbFemale" >
+                    <label for="rbFemale">Дамски</label>
+                </li>
+                <li class="search-input-holder">
+                    <input type="radio" name="gender" id="rbChild" >
+                    <label for="rbChild">Детски</label>
+                </li>
+                <li class="search-input-holder">
+                    <input type="radio" name="gender" id="rbUnisex" >
+                    <label for="rbUnisex">Унисекс</label>
+                </li>
+            </ul>
+        </li>
+        <li class="search-area">
+            <h2 class="search-header">Цена</h2>
+            <div class="search-criteria">
+                <label for="amount">Цена:</label>
+                <input type="text" id="amount" />
+                <div class="clearfix">
+                    <span class="left">0 лв.</span>
+                    <span class="right">500 лв.</span>
+                </div>
+                <div id="slider-price"></div>
+            </div>
+        </li>
+        <li class="search-area">
+            <h2 class="search-header">Марка</h2>
+            <ul class="search-criteria">
+            @foreach (var mdl in Model.Brands)
+            {
+                <li class="search-input-holder">
+                    <input type="checkbox" id="" >
+                    <label for="">@mdl.Name</label>
+                </li>
+            } 
+            </ul>
+        </li>
+        <li class="search-area">
+            <h2 class="search-header">Цвят</h2>
+            <ul class="search-criteria clearfix">
+            @foreach (var clr in Model.Colors)
+            {
+                <li class="search-input-holder left">
+                    <input type="checkbox" id="" >
+                    <div class="box-color" style="background-color: @clr.Name"></div>
+                </li>
+            } 
+            </ul>
+        </li>
+        <li class="search-area">
+            <h2 class="search-header">Материал</h2>
+            <ul class="search-criteria">
+            @foreach (var mtr in Model.Materials)
+            {
+                <li class="search-input-holder">
+                    <input type="checkbox" id="" >
+                    <label for="">@mtr.Name</label>
+                </li>
+            } 
+            </ul>
+        </li>
+        <li class="search-area">
+            <h2 class="search-header">Форма на лице</h2>
+            <ul class="search-criteria">
+            @foreach (var fs in Model.FaceShapes)
+            {
+                <li class="search-input-holder">
+                    <input type="checkbox" id="" >
+                    <label for="">@fs.Name</label>
+                </li>
+            } 
+            </ul>
+        </li>
+
+    </ul>
+</section>
+<section id="search-results-wrap" class="left panel">
+    <ul id="search-results" class="clearfix">
+        @foreach (var prd in @Model.MatchingProducts)
+        {
+        <li class="all mix @prd.Filter">
+        @Html.Partial("_ProductShortMix", prd)
+        </li>
+        }
+    </ul>
+</section>
+@section scripts
+{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/sunglasses/jquery.icheck.min.js"></script>
+    <script src="~/Scripts/sunglasses/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="~/Scripts/sunglasses/jquery.mixitup.min.js"></script>
+    <script src="~/Scripts/sunglasses/easypaginate.js"></script>
+    <script>
+        $(document).ready(function () {
+
+
+            Array.prototype.remove = function () {
+                var what, a = arguments, L = a.length, ax;
+                while (L && this.length) {
+                    what = a[--L];
+                    while ((ax = this.indexOf(what)) !== -1) {
+                        this.splice(ax, 1);
+                    }
+                }
+                return this;
+            };
+
+            var currentFilters = [];
+
+            $(".search-header").on("click", function () {
+                $that = $(this);
+                if ($that.next().is(':visible')) {
+                    $that.next().slideUp("fast");
+                }
+                else {
+                    $that.next().slideDown("fast");
+                }
+            });
+
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_minimal-purple',
+                radioClass: 'iradio_minimal-purple',
+                increaseArea: '20%'
+            });
+
+            $("#slider-price").slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [50, 150],
+                slide: function (event, ui) {
+                    $("#amount").val(ui.values[0] + " лв. - " + ui.values[1] + " лв.");
+                }
+            });
+            $("#amount").val($("#slider-price").slider("values", 0) +
+              " лв. - " + $("#slider-price").slider("values", 1) + " лв.");
+
+
+
+            $("#search-results").mixitup({
+                multiFilter: true,
+                showOnLoad: 'polarized',
+                effects: ['fade', "rotateZ", "rotateY", "grayscale"],
+                easing: "smooth",
+                onMixEnd: function () {
+                    alert('gosh');
+                }
+            });
+
+
+            $('#cbPolorized').on("ifChecked", function () {
+                $('#search-results').mixitup('filter', 'polarized');
+                currentFilters.remove('not-polarized');
+                currentFilters.push('polarized');
+            });
+            $('#cbPolorized').on("ifUnchecked", function () {
+                $('#search-results').mixitup('filter', 'not-polarized');
+                currentFilters.remove('polarized');
+                currentFilters.push('non-polarized');
+            });
+
+            $('#rbMale').on("ifUnchecked", function () {
+                $('#search-results').mixitup('filter', 'U');
+                currentFilters.remove('K');
+                currentFilters.remove('M');
+                currentFilters.remove('F');
+                currentFilters.push('non-polarized');
+            });
+
+        });
+
+        
+
+
+    </script>
+}

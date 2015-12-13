@@ -1,0 +1,92 @@
+﻿#site-content
+{
+    width: 100%;
+    background-color: #240a2d;
+}
+.home-dark
+{    
+    width: 950px;
+    margin: 0 auto;
+    min-height: 400px;
+}
+.home-panel-wrap
+{
+    background: url(../Images/background.png) 0 0 repeat #fee18e;
+    border-top: 10px solid #ffe293;
+}
+.home-panel
+{
+    width: 950px;
+    min-height: 100px;
+    margin: 0 auto;
+    text-align: center
+}
+#mid-nav
+{
+    width: 950px;
+    margin: 0 auto;
+}
+#mid-nav li
+{
+    font-size: 2.2rem;
+    float: left;
+    display: block;
+    width: 190px;
+    text-align: center;
+    height: 100px;
+}
+    #mid-nav li a
+    {
+        text-align: center;
+        display: block;
+        padding: 20px;
+    }
+    #mid-nav li:hover
+    {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+#mid-nav-new
+{
+    background: url(../Images/home-new.jpg) 0 0 no-repeat #fee18e;
+    width: 281px;
+    height: 345px;
+}
+#mid-nav-rec
+{
+    background: url(../Images/home-rec.jpg) 0 0 no-repeat #fee18e;
+    width: 345px;
+    height: 345px;
+}
+#mid-nav-out
+{
+    background: url(../Images/home-out.jpg) 0 0 no-repeat #fee18e;
+    width: 292px;
+    height: 345px;
+}
+#mid-nav-shape
+{
+    background: url(../Images/home-shape.jpg) 0 0 no-repeat #fee18e;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 940px;
+    height: 585px;
+}
+#img-nav
+{
+    padding-top: 10px;
+}
+#img-nav li
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+    #img-nav li a
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding-top: 285px;
+        text-align: center;
+        color: #fff;
+        font-size: 2.5rem;      
+    }

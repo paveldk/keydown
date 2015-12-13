@@ -1,0 +1,53 @@
+﻿.als-container {
+	position: relative;
+	width: 100%;
+	margin: 0px auto;
+	z-index: 0;
+}
+.als-viewport {
+	position: relative;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.als-wrapper {
+	position: relative;
+}
+.als-item {
+	position: relative;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+}
+.als-prev, .als-next {
+	position: absolute;
+	cursor: pointer;
+	clear: both;
+}
+
+#product-als-list .als-item {
+	min-height: 170px;
+	min-width: 150px;
+}
+
+#product-als-list .als-item img {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	top: 50%;
+    margin-top: -25%;
+}
+
+#product-als-list .als-prev, #product-als-list .als-next {
+	top: 58px;
+	width: 15px;
+	height: 22px;
+}
+
+#product-als-list .als-prev {
+	left: 25px;
+}
+
+#product-als-list .als-next {
+	right: 25px;
+}

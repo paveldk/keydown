@@ -1,0 +1,207 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+}
+img
+{
+	border: 0;
+}
+html, body
+{
+	height: 100%;
+	width: 100%;
+}
+body
+{
+	font: 14px "Segoe UI", "Times New Roman", sans-serif;
+	background-color: #CCE0FF;
+}
+
+#gameMenu
+{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: none;
+    text-align: center;
+    color: #bbb;
+    
+}
+#gameMenu .button
+{
+    width: 100%;
+    min-height: 50px;
+    border-top: 5px solid #5899FC;
+    background-color: #95BEFC;
+    line-height: 45px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+}
+#gameMenu .button:hover
+{
+    cursor: pointer;
+    background-color: #77ACFC;
+}
+#gameContex
+{
+    width: 99.8%;
+    height: 99.8%;
+}
+#gameHUD
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,100,0.4);
+    z-index: 2;
+    border-top: 5px solid #5899FC;
+}
+#gameHUD:after
+{
+    display: block;
+    content: "";
+    clear: both;
+    height: 1;
+}
+#addTool, #removeTool, #prvButton, #nxtButton, #autoplayButton, #backToMenu
+{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+    border: 1px solid #5899FC;
+    background-color: rgba(88, 153, 252, 0.8);
+    color: #000;
+    text-decoration: none;
+}
+#addTool, #prvButton
+{
+    margin-left: 100px;
+}
+#addTool:hover, #removeTool:hover, #prvButton:hover, #nxtButton:hover, #autoplayButton:hover, #backToMenu:hover
+{
+    cursor: pointer;
+}
+
+#trollInfo, #robotInfo, #onMoveContainer, #turnsLeftContainer
+{
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    margin: 10px;
+    float: right;
+    background-color: rgba(88, 153, 252, 0.5);
+    border-top: 3px solid #5899FC;
+}
+#trollInfo h3, #robotInfo h3, #onMoveContainer h3
+{
+    font-size: 40px;
+    line-height: 30px;
+}
+#turnsInfo
+{
+    width: 200px;
+    margin: 10px 10px 10px 150px;
+    height: 70px;
+    float: left;
+}
+#onMoveContainer
+{
+    margin-right: 100px;
+}
+#multiOptions, #playVsTrollOptions, #finalResults, #challangeTrollOptions, #instructionsOptions, #aboutUsOptions, #settingsOptions
+{
+    display: none;
+}
+#multiOptions p, #playVsTrollOptions p, #finalResults p, #challangeTrollOptions p, #instructionsOptions p, #aboutUsOptions p, #settingsOptions p
+{
+    margin: 5px 0;
+}
+#finalResults h3 
+{
+    font-size: 33px;
+    margin: 10px;
+}
+#finalResults h4 
+{
+    font-size: 25px;
+    margin: 10px;
+}
+#finalResults img
+{
+    margin-top: 40px;
+    margin-left: 250px;
+}
+input[type=number]
+{
+    width: 32px; 
+    height: 20px;
+}
+.red
+{
+    color: #f00;
+}
+#addTool
+{
+    background: url('../images/icons/plus.png') 0 0 no-repeat rgba(88, 153, 252, 0.5);
+}
+#addTool:hover
+{
+    background: url('../images/icons/plus-hover.png') 0 0 no-repeat rgba(88, 153, 252, 0.6);
+    
+}
+#removeTool
+{
+    background: url('../images/icons/minus.png') 0 0 no-repeat rgba(88, 153, 252, 0.5);
+    
+}
+#removeTool:hover
+{
+    background: url('../images/icons/minus-hover.png') 0 0 no-repeat rgba(88, 153, 252, 0.6);   
+}
+#autoplayButton
+{
+    background: url('../images/icons/play.png') 0 0 no-repeat rgba(88, 153, 252, 0.5);
+}
+#autoplayButton:hover
+{
+    background: url('../images/icons/play-hover.png') 0 0 no-repeat rgba(88, 153, 252, 0.6);
+}
+#autoplayButton.pause
+{
+    background: url('../images/icons/pause.png') 0 0 no-repeat rgba(88, 153, 252, 0.5);
+}
+#autoplayButton.pause:hover
+{
+    background: url('../images/icons/pause-hover.png') 0 0 no-repeat rgba(88, 153, 252, 0.6);
+}
+#prvButton
+{
+    background: url('../images/icons/prv.png') 0 0 no-repeat rgba(88, 153, 252, 0.5);
+}
+#prvButton:hover
+{
+    background: url('../images/icons/prv-hover.png') 0 0 no-repeat rgba(88, 153, 252, 0.6);
+}
+#nxtButton
+{
+    background: url('../images/icons/next.png') 0 0 no-repeat rgba(88, 153, 252, 0.5);
+}
+#nxtButton:hover
+{
+    background: url('../images/icons/next-hover.png') 0 0 no-repeat rgba(88, 153, 252, 0.6);
+}
+#backToMenu
+{
+    float: right;
+}
+.activeButton
+{
+    border: 3px solid #E0C21B !important;
+}

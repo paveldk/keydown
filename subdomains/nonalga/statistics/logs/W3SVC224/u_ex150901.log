@@ -1,0 +1,66 @@
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-09-01 10:03:43
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-09-01 10:03:43 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 180.76.15.156 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - nonalga.keydown.org 304 0 0 230 307 811
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-09-02 09:07:15
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-09-02 09:07:15 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 151.80.31.130 HTTP/1.1 Mozilla/5.0+(compatible;+AhrefsBot/5.0;++http://ahrefs.com/robot/) - - nonalga.keydown.org 200 0 0 6596 170 842
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-09-02 16:53:13
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-09-02 16:53:13 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 178.255.215.92 HTTP/1.1 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) - - nonalga.keydown.org 404 0 2 1222 274 374
+2015-09-02 16:53:13 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 178.255.215.92 HTTP/1.1 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) - - nonalga.keydown.org 400 0 87 1377 349 280
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-09-02 18:07:22
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-09-02 18:07:21 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 123.125.71.74 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+rv:6.0.2)+Gecko/20100101+Firefox/6.0.2 - - nonalga.keydown.org 404 0 2 1222 191 639
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-09-03 16:42:49
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-09-03 16:42:48 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/rotation.js - 80 - 180.76.15.23 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - nonalga.keydown.org 304 0 0 230 333 514
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-09-03 17:02:51
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-09-03 17:02:50 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/rotation.js - 80 - 180.76.15.148 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - nonalga.keydown.org 304 0 0 230 333 468
+2015-09-03 17:05:42 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/rotation.js - 80 - 180.76.15.158 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - nonalga.keydown.org 304 0 0 230 333 312
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-09-03 17:22:50
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-09-03 17:22:50 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/rotation.js - 80 - 180.76.15.139 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - nonalga.keydown.org 304 0 0 230 333 483
+2015-09-03 17:23:50 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 180.76.15.139 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+rv:6.0.2)+Gecko/20100101+Firefox/6.0.2 - - nonalga.keydown.org 404 0 2 1222 191 343
+2015-09-03 17:23:53 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/rotation.js - 80 - 180.76.15.23 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - nonalga.keydown.org 304 0 0 230 333 296
+2015-09-03 17:25:37 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/rotation.js - 80 - 180.76.15.135 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - nonalga.keydown.org 304 0 0 230 333 296
+2015-09-03 17:28:15 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/rotation.js - 80 - 180.76.15.16 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - nonalga.keydown.org 304 0 0 230 333 327
+2015-09-03 17:32:08 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 157.55.39.150 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - nonalga.keydown.org 404 0 2 1203 271 296
+2015-09-03 17:32:25 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 157.55.39.150 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - nonalga.keydown.org 200 0 0 6596 274 483
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-09-04 11:49:32
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-09-04 11:49:32 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 66.249.78.230 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 404 0 2 1203 260 312
+2015-09-04 11:49:32 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 66.249.78.230 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 6596 293 234
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-09-04 17:37:00
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-09-04 17:36:59 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/jquery.simplemodal.1.4.3.min.js - 80 - 180.76.15.26 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - nonalga.keydown.org 304 0 0 229 352 530
+2015-09-04 17:43:17 W3SVC224 TANGO 91.196.125.129 GET /styles/styles.css - 80 - 66.249.67.14 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 6566 250 483
+2015-09-04 17:43:20 W3SVC224 TANGO 91.196.125.129 GET /styles/modalbasic.css - 80 - 66.249.78.236 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 1199 254 93
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-09-04 20:25:30
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-09-04 20:25:29 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 151.80.31.134 HTTP/1.1 Mozilla/5.0+(compatible;+AhrefsBot/5.0;++http://ahrefs.com/robot/) - - nonalga.keydown.org 404 0 2 1203 180 62
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-09-04 22:56:15
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-09-04 22:56:15 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 66.249.78.230 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+8_3+like+Mac+OS+X)+AppleWebKit/600.1.4+(KHTML,+like+Gecko)+Version/8.0+Mobile/12F70+Safari/600.1.4+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 6596 415 421

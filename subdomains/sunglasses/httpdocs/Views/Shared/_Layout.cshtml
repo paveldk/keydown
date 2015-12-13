@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - Слънчеви очила</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+        @RenderSection("header", required: false)
+    </head>
+    <body>
+        <header id="site-header">
+            <section id="header-content" class="clearfix">
+                <h1><a href="/" id="sunglasses-logo" title="Sunglasses Shop - Home"><img src="~/Images/sunglasses-logo.png" alt="Sunglasses Shop" width="469" height="150" /></a></h1>
+                <ul id="social-links" class="left">
+                    <li><a href="/" title="Sunglasses facebook"><img src="~/Images/social/facebook.png" alt="Sunglasses on facebook" width="35" height="37" /></a></li>
+                    <li><a href="/" title="Sunglasses twitter"><img src="~/Images/social/twitter.png" alt="Sunglasses on twitter" width="35" height="37" /></a></li>
+                    <li><a href="/" title="Sunglasses skype"><img src="~/Images/social/skype.png" alt="Sunglasses on skype" width="35" height="37" /></a></li>
+                </ul>
+                <a href="/" id="cart-link" class="cart right clearfix">
+                    <span id="cart-count" class="cart-count left">00</span>
+                    <h2 class="right">Безплатна доставка</h2>
+                </a>
+            </section>
+            <nav id="main-nav">
+                <ul>
+                    <li>@Html.ActionLink("Начало", "Index", "Home")
+                    </li><li>
+                    @if(Request.IsAuthenticated)
+                    {
+                        @Html.ActionLink("Профил", "Accout", "Profile")
+                    }
+                    else
+                    {
+                        @Html.ActionLink("Вход", "Accout", "Profile")
+                    }
+                    </li><li>@Html.ActionLink("Продукти", "Search", "Home")
+                    </li><li>@Html.ActionLink("Контакти", "Contact", "About")
+                    </li><li>@Html.ActionLink("За Нас", "Index", "About")</li>
+                </ul>
+            </nav>
+        </header>
+        <div id="body">
+            <section id="site-content" class="clearfix">
+                @RenderBody()
+            </section>
+        </div>
+        <footer id="site-footer">
+            <nav id="footer-nav" class="clearfix">
+                <ul class="nav-col left">
+                    <li>@Html.ActionLink("За Нас", "About", "About")
+                    </li><li>@Html.ActionLink("Privacy Policy", "About", "Privaci") 
+                    </li><li>@Html.ActionLink("Условия за ползване", "About", "Temrs")
+                    </li><li>@Html.ActionLink("Връзка с нас", "About", "Contacts")</li>
+                </ul>
+                <ul class="nav-col left">
+                    <li>@Html.ActionLink("Начало", "About", "Index")
+                    </li><li>@Html.ActionLink("Вход", "Account", "Login") 
+                    </li><li>@Html.ActionLink("Профил", "Account", "Account")
+                    </li><li>@Html.ActionLink("Количка", "Cart", "Index")</li>
+                </ul>
+                <ul class="nav-col left">
+                    <li>@Html.ActionLink("Слънчеви очила", "Products", "Sunglasses")
+                    </li><li>@Html.ActionLink("Диоптрични очила", "Products", "Eyeglasses") 
+                    </li><li>@Html.ActionLink("Лещи", "Products", "Lens")
+                    </li><li>@Html.ActionLink("Outlet", "Products", "Outlet")
+                    </li><li>@Html.ActionLink("Други", "Products", "Others")</li>
+                </ul>
+            </nav>
+            <ul id="footer-payments">
+                <li>
+                    <img src="~/Images/payments/mastercard.png" width="86" height="52" alt="Mastercard icon" />
+                </li><li>
+                    <img src="~/Images/payments/maestro.png" width="84" height="52" alt="Maestro icon" />
+                </li><li>
+                    <img src="~/Images/payments/visa.png" width="85" height="52" alt="Visa icon" />
+                </li><li>
+                    <img src="~/Images/payments/vpay.png" width="48" height="52" alt="VPay icon" />
+                </li>
+            </ul>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+        <script src="~/Scripts/sunglasses/jquery.unveil.min.js"></script>
+        <script src="~/Scripts/sunglasses/jquery-ui-1.10.3.custom.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("img").unveil();
+
+                function updateCartCountUI() {
+                    var count = 0;
+                    var dbObject = localStorage.getItem("sunglasses-cart");
+                    var currentItems = JSON.parse(dbObject);
+                    for (var i = 0; i < currentItems.products.length; i++) {
+                        count += currentItems.products[i].quantity;
+                    }
+                    $("#cart-count").html(count);
+                }
+                updateCartUI();
+                updateCartUrl();
+            });
+            function getProductsParm() {
+                var cartDB = localStorage.getItem("sunglasses-cart");
+                var products = JSON.parse(cartDB);
+                var productsParam = "";
+                if (products != null) {
+                    for (var i = 0; i < products.products.length; i++) {
+                        productsParam += "p" + products.products[i].productId + "q" + products.products[i].quantity;
+                        if (products.products[i].left !== undefined) {
+                            productsParam += "l" + products.products[i].left + "r" + products.products[i].right;
+                        }
+                        productsParam += "e";
+                    }
+                }
+                return productsParam;
+            }
+            function updateCartUrl() {
+                var param = getProductsParm();
+                $("#cart-link").attr('href', "http://" + window.location.host + "/Cart/Index/?products=" + param);
+            }
+            function updateCartUI() {
+                $("#cart-count").effect("shake", { times: 2, distance: 10 }, 1000, updateCartCountUI);
+            }
+
+            function updateCartCountUI() {
+                var count = 0;
+                var dbObject = localStorage.getItem("sunglasses-cart");
+                var currentItems = JSON.parse(dbObject);
+                if (currentItems !== null) {
+                    for (var i = 0; i < currentItems.products.length; i++) {
+                        count += currentItems.products[i].quantity;
+                    }
+                }
+                $("#cart-count").html(count);
+            }
+
+        </script>
+    </body>
+</html>

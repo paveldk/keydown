@@ -1,0 +1,6 @@
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-30 13:29:45
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-30 13:29:44 W3SVC851 TANGO 91.196.125.129 GET / - 80 - 82.103.64.57 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_10_1)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - - chicksbook.keydown.org 404 0 0 2239 455 5460
+2015-04-30 13:29:45 W3SVC851 TANGO 91.196.125.129 GET /favicon.ico - 80 - 82.103.64.57 HTTP/1.1 Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_10_1)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/42.0.2311.90+Safari/537.36 - http://chicksbook.keydown.org/ chicksbook.keydown.org 200 0 0 32416 436 421

@@ -1,0 +1,134 @@
+﻿@model Sunglasses___Web.Models.CartModel
+
+@{
+    ViewBag.Title = "Потвърдете Поръчката";
+}
+
+
+
+@section header
+{
+    <link href="~/Content/purple.css" rel="stylesheet" />
+}
+
+@using (Html.BeginForm("SubmitOrder", "Cart", FormMethod.Post, new { id = "frmPreOrder" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+     <section class="panel clearfix">
+        <h2>Количка</h2>
+        <hr />
+        <table>
+            <thead>
+                <tr>
+                    <th>Продукт</th>
+                    <th>Допълнение</th>
+                    <th>Количество</th>
+                    <th>Единична Цена</th>
+                    <th>Общо</th>
+                </tr>
+            </thead>
+            @for (var product = 0; product < @Model.Products.Count; product++)
+            {
+                <tr>
+                    <td>
+                        @Html.Partial("_ProductShort", @Model.Products[product].Product)
+                        @Html.HiddenFor(x => x.Products[product].Product.Id)
+                        @Html.HiddenFor(x => x.Products[product].Product.Image)
+                        @Html.HiddenFor(x => x.Products[product].Product.Model)
+                        @Html.HiddenFor(x => x.Products[product].Product.NewPrice)
+                        @Html.HiddenFor(x => x.Products[product].Product.OldPrice)
+                        @Html.HiddenFor(x => x.Products[product].Product.Rate)
+                        @Html.HiddenFor(x => x.Products[product].Product.Discount)
+                        @Html.HiddenFor(x => x.Products[product].Product.Brand)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(x => x.Products[product].AdditionalInformation)
+                        @Html.HiddenFor(x=>x.Products[product].AdditionalInformation)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(x => x.Products[product].Quantity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(x => x.Products[product].Product.NewPrice) лв.
+                    </td>
+                    <td>
+                        @{ decimal? cost = Model.Products[product].Product.NewPrice * Model.Products[product].Quantity;                      
+                        }@cost  лв.
+                    </td>
+                </tr>
+            }
+        </table>
+
+        <p class="align-right title-big">
+            Сума за плащане: @Html.DisplayFor(x => x.Cost) лв.
+            @Html.HiddenFor(x => x.Cost)
+        </p>
+    </section>
+    <section class="panel clearfix">
+        <h2>Начин на плащане</h2>
+        <hr />
+        @Html.HiddenFor(x=>x.PaymentMethod)
+        @if (Model.PaymentMethod == 0)
+        {
+            <label class="p-panel">Чрез наложен платеж при получаване</label>
+        }
+        else 
+        {
+            <label class="p-panel">Чрез система за разплащане БОРИКА</label>
+        }
+        @Html.HiddenFor(x => x.DiscountCode)
+    </section>
+    
+    <section class="panel clearfix">
+        <h2>Данни за доставката</h2>
+        <hr />
+        <p class="p-panel">
+            @Html.LabelFor(x => x.CustomerName, new { @class = "bold" })
+            @Html.DisplayFor(x => x.CustomerName)
+            @Html.HiddenFor(x=>x.CustomerName)
+        </p>
+        <p class="p-panel">
+            @Html.LabelFor(x => x.CustomerEmail, new { @class = "bold" })
+            @Html.DisplayFor(x => x.CustomerEmail)
+            @Html.HiddenFor(x=>x.CustomerEmail)
+        </p>
+        <p class="p-panel">
+            @Html.LabelFor(x => x.CustomerPhone, new { @class = "bold" })
+            @Html.DisplayFor(x => x.CustomerPhone)
+            @Html.HiddenFor(x=>x.CustomerPhone)
+        </p>
+        <p class="p-panel">
+            @Html.LabelFor(x => x.CustomerAddress, new { @class = "bold" })
+            @Html.DisplayFor(x => x.CustomerAddress)
+            @Html.HiddenFor(x=>x.CustomerAddress)
+        </p>
+        <input type="submit" value="Потвърди" id="" class="button-green-big right">
+    </section>
+}
+@section scripts
+{
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/sunglasses/jquery.icheck.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_minimal-purple',
+                radioClass: 'iradio_minimal-purple',
+                increaseArea: '20%'
+            });
+
+            $('#frmPreOrder').on("submit", function () {
+                clearCart();
+            });
+        });
+
+        function clearCart() {
+            localStorage.removeItem("sunglasses-cart");
+            updateCartUI();
+        }
+    </script>
+}
+

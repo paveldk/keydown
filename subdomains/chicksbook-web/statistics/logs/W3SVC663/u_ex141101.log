@@ -1,0 +1,83 @@
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2014-11-01 00:58:32
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2014-11-01 00:58:31 W3SVC663 TANGO 91.196.125.129 GET /robots.txt - 80 - 61.135.189.172 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - chicksbook-web.keydown.org 404 0 2 1222 208 811
+2014-11-01 00:58:38 W3SVC663 TANGO 91.196.125.129 GET / - 80 - 61.135.189.172 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - chicksbook-web.keydown.org 304 0 0 229 274 608
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2014-11-01 04:14:20
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2014-11-01 04:14:20 W3SVC663 TANGO 91.196.125.129 GET / - 80 - 61.135.190.104 HTTP/1.1 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+zh-CN;+rv:1.9.2.15)+Gecko/20110303+Firefox/3.6.15 - http://www.baidu.com/s?wd=Chicksbook chicksbook-web.keydown.org 200 0 0 54335 429 8018
+2014-11-01 04:14:25 W3SVC663 TANGO 91.196.125.129 GET /common/js/jquery.min.js - 80 - 61.135.190.104 HTTP/1.1 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+zh-CN;+rv:1.9.2.15)+Gecko/20110303+Firefox/3.6.15 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 92893 390 5350
+2014-11-01 04:15:01 W3SVC663 TANGO 91.196.125.129 GET /common/js/kendo.web.min.js - 80 - 61.135.190.104 HTTP/1.1 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+zh-CN;+rv:1.9.2.15)+Gecko/20110303+Firefox/3.6.15 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 995 196608 393 35490
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2014-11-01 06:39:17
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2014-11-01 06:39:16 W3SVC663 TANGO 91.196.125.129 GET / - 80 - 173.0.54.144 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/28.0.1500.71+Safari/537.36 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 54335 428 1216
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2014-11-01 09:27:30
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2014-11-01 09:27:29 W3SVC663 TANGO 91.196.125.129 GET / - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - - chicksbook-web.keydown.org 200 0 0 54335 357 561
+2014-11-01 09:27:29 W3SVC663 TANGO 91.196.125.129 GET /common/css/kendo.default.min.css - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 16207 389 109
+2014-11-01 09:27:29 W3SVC663 TANGO 91.196.125.129 GET /common/css/styles.css - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 28190 378 187
+2014-11-01 09:27:30 W3SVC663 TANGO 91.196.125.129 GET /common/js/jquery.min.js - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 92893 365 218
+2014-11-01 09:27:30 W3SVC663 TANGO 91.196.125.129 GET /common/js/Finance.js - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 4879 362 156
+2014-11-01 09:27:30 W3SVC663 TANGO 91.196.125.129 GET /common/js/Calendar.js - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 5665 363 187
+2014-11-01 09:27:30 W3SVC663 TANGO 91.196.125.129 GET /common/js/User.js - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 13421 359 93
+2014-11-01 09:27:30 W3SVC663 TANGO 91.196.125.129 GET /common/js/Assets.js - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 11500 361 249
+2014-11-01 09:27:30 W3SVC663 TANGO 91.196.125.129 GET /common/js/Farm.js - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 14638 359 327
+2014-11-01 09:27:30 W3SVC663 TANGO 91.196.125.129 GET /common/js/kendo.web.min.js - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 576479 368 530
+2014-11-01 09:27:30 W3SVC663 TANGO 91.196.125.129 GET /common/js/Tasks.js - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 11291 360 561
+2014-11-01 09:27:30 W3SVC663 TANGO 91.196.125.129 GET /common/js/Trainings.js - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 4696 364 561
+2014-11-01 09:27:30 W3SVC663 TANGO 91.196.125.129 GET /common/js/SiteController.js - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 10905 369 62
+2014-11-01 09:27:30 W3SVC663 TANGO 91.196.125.129 GET /common/images/icon-window-close.png - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 3468 377 78
+2014-11-01 09:27:30 W3SVC663 TANGO 91.196.125.129 GET /common/images/logo.png - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 61922 364 109
+2014-11-01 09:27:30 W3SVC663 TANGO 91.196.125.129 GET /common/images/login_page/login_page_triangle.png - 80 - 87.251.59.8 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+7_0_4+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11B554a+Safari/9537.53 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 3107 390 109
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2014-11-01 10:14:28
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2014-11-01 10:14:24 W3SVC663 TANGO 91.196.125.129 GET /common/js/Finance.js - 80 - 123.125.71.112 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - chicksbook-web.keydown.org 200 0 0 4898 254 2730
+2014-11-01 10:26:39 W3SVC663 TANGO 91.196.125.129 GET /robots.txt - 80 - 38.111.147.86 HTTP/1.0 TurnitinBot/3.0+(http://www.turnitin.com/robot/crawlerinfo.html) - - chicksbook-web.keydown.org 404 0 2 1222 140 546
+2014-11-01 10:31:19 W3SVC663 TANGO 91.196.125.129 GET / - 80 - 38.111.147.86 HTTP/1.0 TurnitinBot/3.0+(http://www.turnitin.com/robot/crawlerinfo.html) - - chicksbook-web.keydown.org 304 0 0 229 496 452
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2014-11-01 13:34:44
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2014-11-01 13:34:43 W3SVC663 TANGO 91.196.125.129 GET /robots.txt - 80 - 78.46.128.242 HTTP/1.1 Mozilla/5.0+(compatible;+SearchmetricsBot;+http://www.searchmetrics.com/en/searchmetrics-bot/) - - chicksbook-web.keydown.org 404 0 2 1203 239 608
+2014-11-01 13:34:44 W3SVC663 TANGO 91.196.125.129 GET / - 80 - 78.46.128.242 HTTP/1.1 Mozilla/5.0+(compatible;+SearchmetricsBot;+http://www.searchmetrics.com/en/searchmetrics-bot/) - - chicksbook-web.keydown.org 200 0 0 54335 200 405
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2014-11-01 14:23:22
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2014-11-01 14:23:21 W3SVC663 TANGO 91.196.125.129 GET / - 80 - 111.161.0.75 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/28.0.1500.71+Safari/537.36 - http://chicksbook-web.keydown.org/ chicksbook-web.keydown.org 200 0 0 54335 521 2667
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2014-11-01 15:25:07
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2014-11-01 15:25:07 W3SVC663 TANGO 91.196.125.129 HEAD / - 80 - 213.133.97.216 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+rv:25.0)+Gecko/20100101+Firefox/25.0 - - chicksbook-web.keydown.org 200 0 0 267 178 405
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2014-11-01 17:26:17
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2014-11-01 17:26:17 W3SVC663 TANGO 91.196.125.129 GET /robots.txt - 80 - 66.249.67.156 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - chicksbook-web.keydown.org 404 0 2 1203 276 343
+2014-11-01 17:26:17 W3SVC663 TANGO 91.196.125.129 GET / - 80 - 66.249.67.148 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+6_0+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+Version/6.0+Mobile/10A5376e+Safari/8536.25+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - chicksbook-web.keydown.org 304 0 0 210 414 265
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2014-11-01 17:43:02
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2014-11-01 17:43:02 W3SVC663 TANGO 91.196.125.129 GET / - 80 - 69.84.207.246 HTTP/1.1 LSSRocketCrawler/1.0+LightspeedSystems - - chicksbook-web.keydown.org 206 0 0 54384 269 1154
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2014-11-01 19:14:02
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2014-11-01 19:14:02 W3SVC663 TANGO 91.196.125.129 GET /robots.txt - 80 - 162.243.92.176 HTTP/1.1 Mozilla/5.0+(compatible;+spbot/4.3.0;++http://OpenLinkProfiler.org/bot+) - - chicksbook-web.keydown.org 404 0 2 1222 296 405
+2014-11-01 19:14:07 W3SVC663 TANGO 91.196.125.129 GET / - 80 - 162.243.92.176 HTTP/1.1 Mozilla/5.0+(compatible;+spbot/4.3.0;++http://OpenLinkProfiler.org/bot+) - - chicksbook-web.keydown.org 200 0 0 54354 286 904
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2014-11-01 21:48:26
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2014-11-01 21:48:25 W3SVC663 TANGO 91.196.125.129 GET /common/js/Assets.js - 80 - 123.125.71.51 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - chicksbook-web.keydown.org 200 0 0 11519 253 1419

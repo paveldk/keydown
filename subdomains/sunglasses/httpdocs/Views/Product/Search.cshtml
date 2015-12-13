@@ -1,0 +1,283 @@
+﻿@model Sunglasses___Web.Models.ProductModel
+
+@using Sunglasses___Web.Infrastructure
+@{
+    ViewBag.Title = @Model.Model;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section header
+{
+    <link href="~/Content/als.css" rel="stylesheet" />
+    <link href="~/Scripts/sunglasses/touchTouch.css" rel="stylesheet" />
+    <link href="~/Content/purple.css" rel="stylesheet" />
+}
+
+@using (Html.BeginForm("Search", "Home", FormMethod.Post, new { id = "orderForm" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <section class="product-general clearfix">
+        <div class="product-images left thumbs">
+            <a href="@Model.Image" title="@Model.Model">
+                <img src="@(Model.Image)" class="main-image" />
+            </a>
+            <ul id="gallery" class="clearfix">
+                @for (int i = 0; i < @Model.GalleryThumbs.Count; i++)
+                {
+                    <li class="image-thumb left"><a href="@Model.Gallery[i]" title="@Model.Model">
+                        <img src="~/Images/loader.gif" data-src="@Model.GalleryThumbs[i]" alt="@Model.Model"></a></li>
+                }
+            </ul>
+
+
+        </div>
+
+        <div class="product-info left">
+            <h1>@Model.Model</h1>
+            <dl>
+                <dt>Цена: </dt>
+                <dd><del>@Model.OldPrice лв.</del> <span class="product-price">@Model.NewPrice лв.</span></dd>
+
+                <dt>Наличност: </dt>
+                <dd>@{if (Model.Quantity > 0)
+                      { 
+                    @:В наличност
+                  }
+                      else
+                      {
+                    @:Изчерпан
+                  }}</dd>
+
+                <dt>Модел: </dt>
+                <dd><strong>@Model.Model</strong></dd>
+
+                <dt>Размери: </dt>
+                <dd>@Model.Size</dd>
+
+                <dt>Оценка: </dt>
+                <dd>
+                    <div id="productRating"></div>
+                    @Model.Rate / 5 от @Model.RateVotes гласа</dd>
+
+                <dt>Цветове: </dt>
+                <dd>
+                    @foreach (var color in @Model.Colors)
+                    {
+                        <div class="box-color" style="background-color: #@(color)"></div>
+                    }
+                </dd>
+
+                <dt>Количество: </dt>
+                <dd>
+                    @{if (Model.Quantity > 0)
+                      { 
+                        @Html.EditorFor(x => x.Ordered, new { id = "productCount", type = "number", style="width:30px", min = "0", max = "5"})<br />
+                        @Html.ValidationMessageFor(x => x.Ordered)
+                      }
+                      else
+                      {
+                        @:Изчерпан
+                  }}
+
+                </dd>
+            </dl>
+            <input type="submit" value="Добавете" id="orderSubmit" class="button-green-big" />
+        </div>
+    </section>
+}
+<section class="panel">
+    <h2>Описание</h2>
+    <hr />
+    <div class="product-description">
+        @Html.Raw(Model.Description)
+    </div>
+</section>
+<section class="panel">
+    <h2>Подобни продукти</h2>
+    <hr />
+    <section class="product-related">
+        <div class="als-container" id="product-als-list">
+            <span class="als-prev">
+                <img src="~/Images/prv.png" alt="prev" title="previous" /></span>
+            <div class="als-viewport">
+                <ul class="clearfix als-wrapper">
+                    @foreach (var prd in @Model.RelatedProducts)
+                    {
+                        <li class="als-item">
+                            @Html.Partial("_ProductShort", prd)
+                        </li>
+                    }
+                </ul>
+            </div>
+            <span class="als-next">
+                <img src="~/Images/nxt.png" alt="next" title="next" /></span>
+        </div>
+    </section>
+</section>
+<section class="panel">
+    <h2>Коментари</h2>
+    <hr />
+    <div class="product-comment clearfix">
+
+        <div class="comments left">
+            @if (Model.Comments.Count > 0)
+            {
+                <ul id="list-comments">
+                    @foreach (var comment in Model.Comments)
+                    {
+                        <li>
+                            <h3><strong>@comment.Username</strong> - @comment.Date</h3>
+                            <p>@comment.Comment</p>
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p>Няма коментари за този продукт</p>
+            }
+        </div>
+
+        @using (Html.BeginForm(null, null, FormMethod.Post, new { id="formComment", @class = "add-comment left" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true)
+
+            <fieldset>
+                <legend>Добави коментар</legend>
+                <h2>Добавете Коментар</h2>
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.NewComment.Username)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.NewComment.Username)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.NewComment.Comment)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.NewComment.Comment)
+                </div>
+                @Html.HiddenFor(model => model.Id)
+
+                <p>@Html.ValidationMessageFor(model => model.NewComment.Username)</p>
+                <p>@Html.ValidationMessageFor(model => model.NewComment.Comment)</p>
+
+                <p>
+                    <input type="submit" value="Коментирай" class="button-purple-big" />
+                </p>
+            </fieldset>
+        }
+
+    </div>
+</section>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/sunglasses/jquery.raty.min.js"></script>
+    <script src="~/Scripts/sunglasses/touchTouch.jquery.js"></script>
+    <script src="~/Scripts/sunglasses/jquery.als-1.1.min.js"></script>
+    <script src="~/Scripts/sunglasses/jquery.icheck.min.js"></script>
+    <script src="~/Scripts/sunglasses/jquery-ui-1.10.3.custom.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#productRating').raty({
+                score: @(Model.Rate) ,
+                hint: [null, null, null, null, null],
+                size: 40,
+                click: function (score, evt) {
+        
+                    var userData = {
+                        Rate: score,
+                        ProductId: @Model.Id
+                        };
+
+                    $.ajax({
+                        type: 'POST',
+                        url: "/Product/Rate/",
+                        crossDomain: true,
+                        data: userData,
+                        dataType: 'json',
+                        success: function (responseData, textStatus, jqXHR) {
+                            $('#productRating').raty('readOnly', true);
+                        },
+                        error: function (responseData, textStatus, errorThrown) {
+
+                        }
+                    });
+                },
+                halfShow: true
+            });
+            
+            $('.thumbs a').touchTouch();
+
+            $('#formComment').submit(function (e) {
+                e.preventDefault();
+                var that = this;
+                if ($(this).valid()) {
+                    $.ajax({
+                        url: '/Comment/Add',
+                        type: this.method,
+                        data: $(this).serialize(),
+                        success: function (result) {
+                            $(that).closest('form').find("input[type=text], textarea").val("");
+                            var newComment = $("<li><h3><strong>" + result.username + "</strong> - " + result.date + "</h3><p>" + result.comment + "</p></li>").hide();
+                            $("#list-comments").prepend(newComment);
+                            newComment.show('slow');
+                        }
+                    });
+                }
+                return false;
+            });
+
+            $("#orderForm").submit(function(e){
+                e.preventDefault();
+                addToCard(@Model.Id , parseInt($("#Ordered").val()));
+            });
+        });
+
+        function addToCard(productId, quantity) {
+            if(!cartExist())
+            {
+                createCart();
+            }
+            if(!isNaN(productId) && !isNaN(quantity))
+            {
+                var dbObject = localStorage.getItem("sunglasses-cart");
+                var currentItems = JSON.parse(dbObject);
+                currentItems.products.push({productId: productId, quantity: quantity});
+                localStorage.setItem("sunglasses-cart", JSON.stringify(currentItems));
+                updateCartUI();
+                updateCartUrl();
+            }
+        };
+        function createCart() {
+            localStorage.setItem("sunglasses-cart", JSON.stringify({user: "no", products: []}));
+        };
+        
+        function cartExist() {
+            if(localStorage.getItem("sunglasses-cart") == null)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        $("#product-als-list").als({
+            visible_items: 5,
+            autoscroll: "yes",
+            interval: 3000
+        });
+
+        
+        $('#colors input').iCheck({
+            checkboxClass: 'icheckbox_minimal-purple',
+            radioClass: 'iradio_minimal-purple',
+            increaseArea: '20%'
+        });
+    </script>
+}

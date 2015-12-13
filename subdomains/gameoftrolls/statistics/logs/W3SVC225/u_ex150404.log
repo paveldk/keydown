@@ -1,0 +1,312 @@
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-19 01:56:17
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-19 01:56:17 W3SVC225 TANGO 91.196.125.129 GET /m/ - 80 - 66.249.78.189 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+6_0+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+Version/6.0+Mobile/10A5376e+Safari/8536.25+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - gameoftrolls.keydown.org 404 0 2 1203 424 390
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-19 04:18:58
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-19 04:18:58 W3SVC225 TANGO 91.196.125.129 GET /robots.txt - 80 - 188.165.15.181 HTTP/1.1 Mozilla/5.0+(compatible;+AhrefsBot/5.0;++http://ahrefs.com/robot/) - - gameoftrolls.keydown.org 404 0 2 1203 185 187
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-19 07:03:43
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-19 07:03:43 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+en)+Opera+9.0 - http://gcup.ru/ gameoftrolls.keydown.org 200 0 0 2154 154 374
+2015-04-19 07:03:43 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+en)+Opera+9.0 - http://gcup.ru/ gameoftrolls.keydown.org 200 0 0 2154 154 46
+2015-04-19 07:03:43 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+en)+Opera+9.0 - http://gcup.ru/ gameoftrolls.keydown.org 200 0 0 2154 154 62
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-19 07:37:22
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-19 07:37:22 W3SVC225 TANGO 91.196.125.129 GET /scripts/msc/ColladaLoader.js - 80 - 180.76.6.154 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 79634 254 72118
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-19 08:57:42
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-19 08:57:42 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1) - http://darkoman.com/ gameoftrolls.keydown.org 200 0 0 2154 145 390
+2015-04-19 08:57:42 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1) - http://darkoman.com/ gameoftrolls.keydown.org 200 0 0 2154 145 46
+2015-04-19 08:57:43 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1) - http://darkoman.com/ gameoftrolls.keydown.org 200 0 0 2154 145 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-19 09:14:27
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-19 09:14:27 W3SVC225 TANGO 91.196.125.129 GET /scripts/algo/maxBlocksPerTurnAlgo.js - 80 - 185.10.104.130 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 30673 262 1684
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-19 19:26:24
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-19 19:26:23 W3SVC225 TANGO 91.196.125.129 GET /robots.txt - 80 - 66.249.78.182 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - gameoftrolls.keydown.org 404 0 2 1203 265 234
+2015-04-19 19:26:24 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 66.249.64.7 HTTP/1.1 SAMSUNG-SGH-E250/1.0+Profile/MIDP-2.0+Configuration/CLDC-1.1+UP.Browser/6.2.3.3.c.1.101+(GUI)+MMP/2.0+(compatible;+Googlebot-Mobile/2.1;++http://www.google.com/bot.html) - - gameoftrolls.keydown.org 200 0 0 2154 438 296
+2015-04-19 19:35:17 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 180.76.6.148 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 2173 226 624
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-19 20:56:11
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-19 20:56:10 W3SVC225 TANGO 91.196.125.129 GET /scripts/got/sim.js - 80 - 180.76.5.172 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 15191 244 1450
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-19 22:06:34
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-19 22:06:34 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+1.1.4322) - http://kinonew-online.net/ gameoftrolls.keydown.org 200 0 0 2154 175 421
+2015-04-19 22:06:34 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+1.1.4322) - http://kinonew-online.net/ gameoftrolls.keydown.org 200 0 0 2154 175 46
+2015-04-19 22:06:34 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+1.1.4322) - http://kinonew-online.net/ gameoftrolls.keydown.org 200 0 0 2154 175 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-19 22:31:16
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-19 22:31:15 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+InfoPath.1 - http://sims-game.com/ gameoftrolls.keydown.org 200 0 0 2154 162 358
+2015-04-19 22:31:15 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+InfoPath.1 - http://sims-game.com/ gameoftrolls.keydown.org 200 0 0 2154 162 62
+2015-04-19 22:31:15 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+InfoPath.1 - http://sims-game.com/ gameoftrolls.keydown.org 200 0 0 2154 162 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-20 00:45:04
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-20 00:45:03 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 66.249.78.189 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+6_0+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+Version/6.0+Mobile/10A5376e+Safari/8536.25+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - gameoftrolls.keydown.org 200 0 0 2154 422 234
+2015-04-20 00:52:32 W3SVC225 TANGO 91.196.125.129 GET /styles/styles.css - 80 - 66.249.78.196 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - gameoftrolls.keydown.org 200 0 0 4448 255 93
+2015-04-20 00:52:32 W3SVC225 TANGO 91.196.125.129 GET /styles/modalbasic.css - 80 - 66.249.64.9 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - gameoftrolls.keydown.org 200 0 0 1199 259 140
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-20 11:56:26
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-20 11:56:25 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Opera/9.0+(Windows+NT+5.1;+U;+en) - http://sexreliz.com/ gameoftrolls.keydown.org 200 0 64 0 128 889
+2015-04-20 11:56:26 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Opera/9.0+(Windows+NT+5.1;+U;+en) - http://sexreliz.com/ gameoftrolls.keydown.org 200 0 0 2154 128 202
+2015-04-20 11:56:26 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Opera/9.0+(Windows+NT+5.1;+U;+en) - http://sexreliz.com/ gameoftrolls.keydown.org 200 0 0 2154 128 234
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-20 13:49:39
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-20 13:49:38 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+AOL+9.0;+Windows+NT+5.1) - http://megamix-media.com/ gameoftrolls.keydown.org 200 0 0 2154 159 546
+2015-04-20 13:49:38 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+AOL+9.0;+Windows+NT+5.1) - http://megamix-media.com/ gameoftrolls.keydown.org 200 0 0 2154 159 46
+2015-04-20 13:49:38 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+AOL+9.0;+Windows+NT+5.1) - http://megamix-media.com/ gameoftrolls.keydown.org 200 0 0 2154 159 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-20 14:22:22
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-20 14:22:22 W3SVC225 TANGO 91.196.125.129 GET /scripts/msc/ColladaLoader.js - 80 - 180.76.6.152 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 79634 254 1825
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-20 17:48:21
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-20 17:48:20 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.0;+.NET+CLR+1.0.3705;+.NET+CLR+1.1.4322) - http://www.bogema-hotel.ru/ gameoftrolls.keydown.org 200 0 0 2154 190 436
+2015-04-20 17:48:20 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+U;+en)+Opera+8.01 - http://zoneg.ru/ gameoftrolls.keydown.org 200 0 0 2154 137 187
+2015-04-20 17:48:21 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.0;+.NET+CLR+1.0.3705;+.NET+CLR+1.1.4322) - http://www.bogema-hotel.ru/ gameoftrolls.keydown.org 200 0 0 2154 190 78
+2015-04-20 17:48:21 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+U;+en)+Opera+8.01 - http://zoneg.ru/ gameoftrolls.keydown.org 200 0 0 2154 137 62
+2015-04-20 17:48:21 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.0;+.NET+CLR+1.0.3705;+.NET+CLR+1.1.4322) - http://www.bogema-hotel.ru/ gameoftrolls.keydown.org 200 0 0 2154 190 62
+2015-04-20 17:48:22 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+U;+en)+Opera+8.01 - http://zoneg.ru/ gameoftrolls.keydown.org 200 0 0 2154 137 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-20 23:48:31
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-20 23:48:31 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 180.76.5.151 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 2173 226 780
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-21 04:46:29
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-21 04:46:29 W3SVC225 TANGO 91.196.125.129 GET /styles/styles.css - 80 - 180.76.5.154 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 4467 243 858
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-21 06:06:08
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-21 06:06:07 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+FunWebProducts;+MRA+4.6+(build+01425);+.NET+CLR+1.1.4322;+.NET+CLR+2.0.50727) - http://www.email-germes-trans-images.info/ gameoftrolls.keydown.org 200 0 0 2154 250 499
+2015-04-21 06:06:07 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+FunWebProducts;+MRA+4.6+(build+01425);+.NET+CLR+1.1.4322;+.NET+CLR+2.0.50727) - http://diyportal.ru/ gameoftrolls.keydown.org 200 0 0 2154 228 140
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-21 07:50:36
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-21 07:50:35 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.01;+Windows+95;+MSIECrawler) - http://pv-services.ru/ gameoftrolls.keydown.org 200 0 64 0 157 1060
+2015-04-21 07:50:36 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.01;+Windows+95;+MSIECrawler) - http://pv-services.ru/ gameoftrolls.keydown.org 200 0 0 2154 157 46
+2015-04-21 07:50:36 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.01;+Windows+95;+MSIECrawler) - http://pv-services.ru/ gameoftrolls.keydown.org 200 0 0 2154 157 62
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-21 08:55:37
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-21 08:55:37 W3SVC225 TANGO 91.196.125.129 GET /scripts/got/sim.js - 80 - 180.76.5.23 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 15191 244 1279
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-21 09:21:59
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-21 09:21:58 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.01;+Windows+95;+MSIECrawler) - http://steamcase.ru/ gameoftrolls.keydown.org 200 0 64 0 155 1123
+2015-04-21 09:21:58 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.01;+Windows+95;+MSIECrawler) - http://steamcase.ru/ gameoftrolls.keydown.org 200 0 0 2154 155 93
+2015-04-21 09:21:59 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.01;+Windows+95;+MSIECrawler) - http://steamcase.ru/ gameoftrolls.keydown.org 200 0 0 2154 155 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-21 12:11:36
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-21 12:11:36 W3SVC225 TANGO 91.196.125.129 GET /robots.txt - 80 - 66.249.78.196 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - gameoftrolls.keydown.org 404 0 2 1203 265 296
+2015-04-21 12:11:36 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 66.249.64.5 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+6_0+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+Version/6.0+Mobile/10A5376e+Safari/8536.25+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - gameoftrolls.keydown.org 200 0 0 2154 422 390
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-21 15:40:40
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-21 15:40:40 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 66.249.64.9 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - gameoftrolls.keydown.org 200 0 0 2154 298 296
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-21 23:46:22
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-21 23:46:21 W3SVC225 TANGO 91.196.125.129 GET /robots.txt - 80 - 209.249.5.247 HTTP/1.1 rogerbot/1.0+(http://moz.com/help/pro/what-is-rogerbot-,+rogerbot-wherecat@moz.com) - - gameoftrolls.keydown.org 404 0 2 1203 212 218
+2015-04-21 23:46:21 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 209.249.5.247 HTTP/1.1 rogerbot/1.0+(http://moz.com/help/pro/what-is-rogerbot-,+rogerbot-wherecat@moz.com) - - gameoftrolls.keydown.org 200 0 0 2154 202 218
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-22 05:20:27
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-22 05:20:26 W3SVC225 TANGO 91.196.125.129 GET /scripts/jquery/jquery.min.js - 80 - 180.76.6.153 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 93920 254 9687
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-22 07:39:12
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-22 07:39:12 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/2.0+(compatible;+MSIE+3.02;+Windows+CE;+240x320) - http://stroyka-house.ru/ gameoftrolls.keydown.org 200 0 0 2154 155 608
+2015-04-22 07:39:12 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/2.0+(compatible;+MSIE+3.02;+Windows+CE;+240x320) - http://stroyka-house.ru/ gameoftrolls.keydown.org 200 0 0 2154 155 62
+2015-04-22 07:39:12 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/2.0+(compatible;+MSIE+3.02;+Windows+CE;+240x320) - http://stroyka-house.ru/ gameoftrolls.keydown.org 200 0 0 2154 155 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-22 08:58:39
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-22 08:58:39 W3SVC225 TANGO 91.196.125.129 GET /scripts/got/gamearea1.js - 80 - 180.76.5.19 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 6624 250 1014
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-22 10:14:50
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-22 10:14:49 W3SVC225 TANGO 91.196.125.129 GET /robots.txt - 80 - 66.249.64.7 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - gameoftrolls.keydown.org 404 0 2 1203 265 421
+2015-04-22 10:14:49 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 66.249.78.189 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+6_0+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+Version/6.0+Mobile/10A5376e+Safari/8536.25+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - gameoftrolls.keydown.org 200 0 0 2154 422 109
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-22 15:44:53
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-22 15:44:53 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+U;+en)+Opera+8.00 - http://highlandmedia.net/ gameoftrolls.keydown.org 200 0 0 2154 146 624
+2015-04-22 15:44:54 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+U;+en)+Opera+8.00 - http://highlandmedia.net/ gameoftrolls.keydown.org 200 0 0 2154 146 46
+2015-04-22 15:44:54 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+U;+en)+Opera+8.00 - http://highlandmedia.net/ gameoftrolls.keydown.org 200 0 0 2154 146 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-22 19:29:21
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-22 19:29:20 W3SVC225 TANGO 91.196.125.129 GET /scripts/algo/mainAlgo.js - 80 - 180.76.6.43 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 3967 250 811
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-22 23:46:00
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-22 23:45:59 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+1.1.4322)+Babya+Discoverer++8.0: - http://evehost.ru/ gameoftrolls.keydown.org 200 0 0 2154 190 390
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-23 11:43:38
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-23 11:43:38 W3SVC225 TANGO 91.196.125.129 GET /robots.txt - 80 - 180.76.5.60 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+rv:6.0.2)+Gecko/20100101+Firefox/6.0.2 - - gameoftrolls.keydown.org 404 0 2 1222 196 530
+2015-04-23 11:44:22 W3SVC225 TANGO 91.196.125.129 GET /scripts/got/gamearea1.js - 80 - 180.76.6.144 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 6624 250 702
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-23 17:08:46
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-23 17:08:45 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.2;+Win64;+AMD64) - http://producm.ru/ gameoftrolls.keydown.org 200 0 0 2154 157 171
+2015-04-23 17:08:46 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.2;+Win64;+AMD64) - http://producm.ru/ gameoftrolls.keydown.org 200 0 0 2154 157 46
+2015-04-23 17:08:46 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.2;+Win64;+AMD64) - http://producm.ru/ gameoftrolls.keydown.org 200 0 0 2154 157 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-23 18:43:29
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-23 18:43:29 W3SVC225 TANGO 91.196.125.129 GET /robots.txt - 80 - 178.255.215.92 HTTP/1.1 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) - - gameoftrolls.keydown.org 404 0 2 1222 280 109
+2015-04-23 18:43:29 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.255.215.92 HTTP/1.1 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) - - gameoftrolls.keydown.org 304 0 0 230 320 234
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-24 02:49:51
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-24 02:49:50 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+KKman2.0) - http://wheelchairlifttoday.com/ gameoftrolls.keydown.org 200 0 0 2154 166 374
+2015-04-24 02:49:50 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Opera/7.54+(Windows+NT+5.1;+U)++[pl] - http://chelnytruck.ru/ gameoftrolls.keydown.org 200 0 0 2154 133 62
+2015-04-24 02:49:51 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+KKman2.0) - http://wheelchairlifttoday.com/ gameoftrolls.keydown.org 200 0 0 2154 166 46
+2015-04-24 02:49:51 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Opera/7.54+(Windows+NT+5.1;+U)++[pl] - http://chelnytruck.ru/ gameoftrolls.keydown.org 200 0 0 2154 133 46
+2015-04-24 02:49:51 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+KKman2.0) - http://wheelchairlifttoday.com/ gameoftrolls.keydown.org 200 0 0 2154 166 46
+2015-04-24 02:49:51 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Opera/7.54+(Windows+NT+5.1;+U)++[pl] - http://chelnytruck.ru/ gameoftrolls.keydown.org 200 0 0 2154 133 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-24 03:30:39
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-24 03:30:38 W3SVC225 TANGO 91.196.125.129 GET /styles/modalbasic.css - 80 - 180.76.5.169 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 1218 247 655
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-24 07:47:29
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-24 07:47:29 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 109.120.157.179 HTTP/1.1 Mozilla/5.0+(compatible;+Add+Catalog/2.1;) - http://www.artparquet.ru/ gameoftrolls.keydown.org 200 0 0 2154 142 670
+2015-04-24 07:47:30 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 109.120.157.179 HTTP/1.1 Mozilla/5.0+(compatible;+Add+Catalog/2.1;) - http://www.artparquet.ru/ gameoftrolls.keydown.org 200 0 0 2154 142 62
+2015-04-24 07:47:30 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 109.120.157.179 HTTP/1.1 Mozilla/5.0+(compatible;+Add+Catalog/2.1;) - http://www.artparquet.ru/ gameoftrolls.keydown.org 200 0 0 2154 142 62
+2015-04-24 07:49:19 W3SVC225 TANGO 91.196.125.129 GET /scripts/algo/mainAlgo.js - 80 - 180.76.5.175 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 3967 250 780
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-24 08:04:34
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-24 08:04:34 W3SVC225 TANGO 91.196.125.129 GET /robots.txt - 80 - 66.249.64.9 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - gameoftrolls.keydown.org 404 0 2 1203 265 561
+2015-04-24 08:04:34 W3SVC225 TANGO 91.196.125.129 GET /favicon.ico - 80 - 66.249.64.7 HTTP/1.1 Googlebot-Image/1.0 - - gameoftrolls.keydown.org 404 0 2 1203 246 124
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-24 08:28:16
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-24 08:28:15 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+FREE;+.NET+CLR+1.1.4322) - http://pv-services.ru/ gameoftrolls.keydown.org 200 0 0 2154 172 483
+2015-04-24 08:28:16 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+FREE;+.NET+CLR+1.1.4322) - http://pv-services.ru/ gameoftrolls.keydown.org 200 0 0 2154 172 46
+2015-04-24 08:28:16 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+FREE;+.NET+CLR+1.1.4322) - http://pv-services.ru/ gameoftrolls.keydown.org 200 0 0 2154 172 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-24 10:18:48
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-24 10:18:47 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 180.76.5.80 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 2173 226 780
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-24 10:42:48
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-24 10:42:48 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+4.01;+Digital+AlphaServer+1000A+4/233;+Windows+NT;+Powered+By+64-Bit+Alpha+Processor) - http://diyportal.ru/ gameoftrolls.keydown.org 200 0 0 2154 210 374
+2015-04-24 10:42:48 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.5;+Windows+NT+5.0) - http://milediva.ru/ gameoftrolls.keydown.org 200 0 0 2154 144 468
+2015-04-24 10:42:48 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+4.01;+Digital+AlphaServer+1000A+4/233;+Windows+NT;+Powered+By+64-Bit+Alpha+Processor) - http://diyportal.ru/ gameoftrolls.keydown.org 200 0 0 2154 210 46
+2015-04-24 10:42:48 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.5;+Windows+NT+5.0) - http://milediva.ru/ gameoftrolls.keydown.org 200 0 0 2154 144 62
+2015-04-24 10:42:49 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+4.01;+Digital+AlphaServer+1000A+4/233;+Windows+NT;+Powered+By+64-Bit+Alpha+Processor) - http://diyportal.ru/ gameoftrolls.keydown.org 200 0 0 2154 210 46
+2015-04-24 10:42:49 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.5;+Windows+NT+5.0) - http://milediva.ru/ gameoftrolls.keydown.org 200 0 0 2154 144 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-24 17:11:23
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-24 17:11:22 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/3.0+(x86+[en]+Windows+NT+5.1;+Sun) - http://mini.afora.ru/ gameoftrolls.keydown.org 200 0 0 2154 138 514
+2015-04-24 17:11:23 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/3.0+(x86+[en]+Windows+NT+5.1;+Sun) - http://mini.afora.ru/ gameoftrolls.keydown.org 200 0 0 2154 138 46
+2015-04-24 17:11:23 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 134.249.53.8 HTTP/1.1 Mozilla/3.0+(x86+[en]+Windows+NT+5.1;+Sun) - http://mini.afora.ru/ gameoftrolls.keydown.org 200 0 0 2154 138 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-24 18:22:02
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-24 18:22:01 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.5;+Windows+NT+5.0;+.NET+CLR+1.1.4322) - http://gormonrosta.biz/ gameoftrolls.keydown.org 200 0 0 2154 167 390
+2015-04-24 18:22:02 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.5;+Windows+NT+5.0;+.NET+CLR+1.1.4322) - http://gormonrosta.biz/ gameoftrolls.keydown.org 200 0 0 2154 167 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-24 21:15:47
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-24 21:15:46 W3SVC225 TANGO 91.196.125.129 GET /scripts/jquery/RequestAnimationFrame.js - 80 - 180.76.6.44 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 822 265 374
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-25 01:52:07
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-25 01:52:07 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 195.242.218.133 HTTP/1.1 Mozilla/4.7+(compatible;+OffByOne;+Windows+2000)+Webster+Pro+V3.4 - http://doska-vsem.ru/ gameoftrolls.keydown.org 200 0 0 2154 161 452
+2015-04-25 01:52:07 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 195.242.218.133 HTTP/1.1 Mozilla/4.7+(compatible;+OffByOne;+Windows+2000)+Webster+Pro+V3.4 - http://doska-vsem.ru/ gameoftrolls.keydown.org 200 0 0 2154 161 78
+2015-04-25 01:52:07 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 195.242.218.133 HTTP/1.1 Mozilla/4.7+(compatible;+OffByOne;+Windows+2000)+Webster+Pro+V3.4 - http://doska-vsem.ru/ gameoftrolls.keydown.org 200 0 0 2154 161 109
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-25 09:09:46
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-25 09:09:46 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+1.1.4322;+.NET+CLR+2.0.50727) - http://shop-electron.ru/ gameoftrolls.keydown.org 200 0 0 2154 193 390
+2015-04-25 09:09:46 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+1.1.4322;+.NET+CLR+2.0.50727) - http://shop-electron.ru/ gameoftrolls.keydown.org 200 0 0 2154 193 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-25 11:41:43
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-25 11:41:43 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 180.76.6.41 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - gameoftrolls.keydown.org 200 0 0 2173 226 670
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-25 15:50:19
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-25 15:50:18 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.5;+Windows+NT+4.0;+.NET+CLR+1.0.2914) - http://steelbuildings.com.ua/ gameoftrolls.keydown.org 200 0 0 2154 173 156
+2015-04-25 15:50:19 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.5;+Windows+NT+4.0;+.NET+CLR+1.0.2914) - http://steelbuildings.com.ua/ gameoftrolls.keydown.org 200 0 0 2154 173 46
+2015-04-25 15:50:20 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.5;+Windows+NT+4.0;+.NET+CLR+1.0.2914) - http://steelbuildings.com.ua/ gameoftrolls.keydown.org 200 0 0 2154 173 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-25 22:36:21
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-25 22:36:20 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.5;+Windows+95;+BCD2000) - http://cssrf.ru/ gameoftrolls.keydown.org 200 0 0 2154 146 156
+2015-04-25 22:36:22 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 178.137.85.64 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+5.5;+Windows+95;+BCD2000) - http://cssrf.ru/ gameoftrolls.keydown.org 200 0 0 2154 146 46
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-04-25 23:06:29
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-04-25 23:06:28 W3SVC225 TANGO 91.196.125.129 GET / - 80 - 46.119.113.155 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.0;+.NET+CLR+1.0.3705;+.NET+CLR+1.1.4322) - http://box-rf.ru/ gameoftrolls.keydown.org 200 0 0 2154 180 468

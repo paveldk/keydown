@@ -1,0 +1,28 @@
+﻿@model  List<Sunglasses___Web.Models.ProductFeaturedModel>
+@{
+    ViewBag.Title = "Препоръчани";
+}
+
+<h2>Препоръчани продукти</h2>
+@if (@Model.Count < 1)
+{
+    <h3>Няма препоръчани продукти</h3>
+}
+else 
+{
+    <section id="search-results-wrap" class="clearfix panel recent">
+        <div id="search-results-inner">
+            <ul id="search-results" class="clearfix content">
+                @foreach (var prd in @Model)
+                {
+                    <li class="clearfix featured-product">
+                        @Html.Partial("_ProductShort", prd.Product)
+                        <section class="left featured-info">
+                            @Html.Raw(prd.Info)
+                        </section>
+                    </li>
+                }
+            </ul>
+        </div>
+    </section>
+}

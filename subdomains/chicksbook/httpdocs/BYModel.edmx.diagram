@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b7e022feffe244c2b9ba3db6ca8132f0" Name="Diagram1" ZoomLevel="17">
+        <EntityTypeShape EntityType="BYModel.Animal" Width="1.5" PointX="4.8256340850263992" PointY="1.7150438882946242" />
+        <EntityTypeShape EntityType="BYModel.Asset" Width="1.5" PointX="5.0739430995071038" PointY="18.902626091103361" />
+        <EntityTypeShape EntityType="BYModel.BirdVet" Width="1.5" PointX="6.2869789387504467" PointY="13.870310387513746" />
+        <EntityTypeShape EntityType="BYModel.Calendar" Width="1.5" PointX="0.0527616665012956" PointY="19.402338409518048" />
+        <EntityTypeShape EntityType="BYModel.ChickenLaw" Width="1.5" PointX="9.4274738698394387" PointY="19.695221075646216" />
+        <EntityTypeShape EntityType="BYModel.ChickenLawsProper" Width="1.5" PointX="3.1168122268825829" PointY="5.0423613512154493" />
+        <EntityTypeShape EntityType="BYModel.Event" Width="1.5" PointX="3.6051471082517628" PointY="13.225835195382048" />
+        <EntityTypeShape EntityType="BYModel.PetShop" Width="1.5" PointX="8.5745774528824619" PointY="27.146353793864304" />
+        <EntityTypeShape EntityType="BYModel.PetShopsWorkingHour" Width="1.5" PointX="3.1957884576152025" PointY="8.6023546944383327" />
+        <EntityTypeShape EntityType="BYModel.Task" Width="1.5" PointX="6.1757600857763375" PointY="10.120117460433448" />
+        <EntityTypeShape EntityType="BYModel.TempZipCode" Width="1.5" PointX="11.55694124827019" PointY="27.235196170972287" />
+        <EntityTypeShape EntityType="BYModel.Training" Width="1.5" PointX="8.31234737127663" PointY="17.001757212449682" />
+        <EntityTypeShape EntityType="BYModel.UserAsset" Width="1.5" PointX="5.2511272119596262" PointY="27.281699878760474" />
+        <EntityTypeShape EntityType="BYModel.UserAssetsHistory" Width="1.5" PointX="11.832089312296402" PointY="29.16553358601664" />
+        <EntityTypeShape EntityType="BYModel.UserFarm" Width="1.5" PointX="11.846879560429082" PointY="20.3363517766522" />
+        <EntityTypeShape EntityType="BYModel.UserFarmHistory" Width="1.5" PointX="1.9986008023836652" PointY="9.2931686385037224" />
+        <EntityTypeShape EntityType="BYModel.User" Width="1.5" PointX="8.84761840144527" PointY="22.288777957804864" />
+        <EntityTypeShape EntityType="BYModel.UserTraining" Width="1.5" PointX="3.8054723645585926" PointY="27.995070440692395" />
+        <EntityTypeShape EntityType="BYModel.Vet" Width="1.5" PointX="3.2019593935468977" PointY="31.128642469238788" />
+        <EntityTypeShape EntityType="BYModel.WeatherForecast" Width="1.5" PointX="6.0197371607738255" PointY="11.231451457008465" />
+        <EntityTypeShape EntityType="BYModel.ZipCode" Width="1.5" PointX="3.9753067493323737" PointY="21.206123898367455" />
+        <AssociationConnector Association="BYModel.FK_UserFarm_Animals" />
+        <AssociationConnector Association="BYModel.FK_UserFarmHistory_Animals" />
+        <AssociationConnector Association="BYModel.FK_Assets_Users" />
+        <AssociationConnector Association="BYModel.FK_UserAssets_Assets" />
+        <AssociationConnector Association="BYModel.FK_UserAssetsHistory_Assets" />
+        <AssociationConnector Association="BYModel.FK_Calendar_Tasks" />
+        <AssociationConnector Association="BYModel.FK_Calendar_Users" />
+        <AssociationConnector Association="BYModel.FK_Tasks_Users" />
+        <AssociationConnector Association="BYModel.FK_UserTrainings_Trainings" />
+        <AssociationConnector Association="BYModel.FK_UserAssets_Users" />
+        <AssociationConnector Association="BYModel.FK_UserAssetsHistory_Users" />
+        <AssociationConnector Association="BYModel.FK_UserFarm_Users" />
+        <AssociationConnector Association="BYModel.FK_UserFarmHistory_Users" />
+        <AssociationConnector Association="BYModel.FK_UserTrainings_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

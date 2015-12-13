@@ -1,0 +1,132 @@
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-27 04:16:34
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-27 04:16:34 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 178.255.215.92 HTTP/1.1 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) - - nonalga.keydown.org 404 0 2 1222 275 124
+2015-07-27 04:16:34 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 178.255.215.92 HTTP/1.1 Mozilla/5.0+(compatible;+Exabot/3.0;++http://www.exabot.com/go/robot) - - nonalga.keydown.org 200 0 0 6615 265 202
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-27 04:51:03
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-27 04:51:03 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 180.76.15.137 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - nonalga.keydown.org 304 0 0 230 307 655
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-27 08:24:54
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-27 08:24:53 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 157.55.39.113 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - nonalga.keydown.org 404 0 2 1203 271 530
+2015-07-27 08:25:13 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 157.55.39.113 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - nonalga.keydown.org 200 0 0 6596 274 530
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-27 09:44:38
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-27 09:44:37 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 66.249.64.162 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 404 0 2 1203 260 639
+2015-07-27 09:44:38 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 66.249.64.162 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 6596 293 655
+2015-07-27 09:48:00 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/gameGrid.js - 80 - 66.249.64.162 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 1773 256 187
+2015-07-27 09:48:19 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/food.js - 80 - 66.249.64.172 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 552 252 140
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-28 01:52:08
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-28 01:52:08 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 151.80.31.150 HTTP/1.1 Mozilla/5.0+(compatible;+AhrefsBot/5.0;++http://ahrefs.com/robot/) - - nonalga.keydown.org 200 0 0 6596 170 452
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-28 03:04:53
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-28 03:04:53 W3SVC224 TANGO 91.196.125.129 HEAD / - 80 - 52.2.203.209 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+compatible;+BDCbot/1.0;++http://ecommerce.bigdatacorp.com.br/faq.aspx)+ppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/41.0.2272.118+Safari/537.36 - - nonalga.keydown.org 200 0 0 267 389 218
+2015-07-28 03:04:56 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 52.2.203.209 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+compatible;+BDCbot/1.0;++http://ecommerce.bigdatacorp.com.br/faq.aspx)+ppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/41.0.2272.118+Safari/537.36 - http://www.keydown.org/ nonalga.keydown.org 200 0 0 6615 495 280
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-28 12:33:03
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-28 12:33:03 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 52.3.126.197 HTTP/1.1 Mozilla/5.0+(X11;+Linux+x86_64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/29.0.1547.57+Safari/537.36 - - nonalga.keydown.org 200 0 0 6596 341 717
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-29 04:37:46
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-29 04:37:45 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 188.165.15.136 HTTP/1.1 Mozilla/5.0+(compatible;+AhrefsBot/5.0;++http://ahrefs.com/robot/) - - nonalga.keydown.org 404 0 2 1203 180 327
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-29 06:27:17
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-29 06:27:17 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 83.149.126.98 HTTP/1.0 Mozilla/5.0+(compatible;+MJ12bot/v1.4.5;+http://www.majestic12.co.uk/bot.php?+) - - nonalga.keydown.org 404 0 2 1222 180 78
+2015-07-29 06:27:19 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 83.149.126.98 HTTP/1.0 Mozilla/5.0+(compatible;+MJ12bot/v1.4.5;+http://www.majestic12.co.uk/bot.php?+) - - nonalga.keydown.org 200 0 0 6615 381 187
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-29 18:53:01
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-29 18:53:01 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 157.55.39.64 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - nonalga.keydown.org 404 0 2 1203 271 234
+2015-07-29 18:53:06 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 157.55.39.64 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - nonalga.keydown.org 200 0 0 6596 274 639
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-29 20:03:40
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://pavelkolev.com/%d1%81%d0%b0%d0%b9%d1%82-%d0%be%d1%82-%d0%b1%d1%8a%d0%b4%d0%b5%d1%89%d0%b5%d1%82%d0%be/ nonalga.keydown.org 200 0 0 6596 494 514
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /styles/styles.css - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 6566 363 31
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /styles/modalbasic.css - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 1199 367 46
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/RequestAnimationFrame.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 803 370 0
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/jquery.simplemodal.1.4.3.min.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 10038 377 46
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/rotate-css.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 4909 359 15
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/vibrate.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 2750 353 15
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/rotation.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 4909 357 15
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/rotate.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 2588 352 31
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/gameGrid.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 1773 354 15
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/gameField.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 11005 355 31
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/unit.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 588 350 31
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/kinetic.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 296661 356 78
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/siteController.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 43006 360 31
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /images/astro.jpg - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 46046 364 31
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/gameOfLife.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 5759 356 187
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/food.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 552 350 187
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/nonalga.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 263 353 187
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /scripts/algo/AlgaeExperiment.js - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/ nonalga.keydown.org 200 0 0 101284 362 249
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /images/redbutton.png - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/styles/styles.css nonalga.keydown.org 200 0 0 10236 385 15
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /images/border-menu.png - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/styles/styles.css nonalga.keydown.org 200 0 0 2567 387 15
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /images/glow-left.png - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/styles/styles.css nonalga.keydown.org 200 0 0 25900 385 31
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /images/holder-right.png - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/styles/styles.css nonalga.keydown.org 200 0 0 54331 388 62
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /images/border.png - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/styles/styles.css nonalga.keydown.org 200 0 0 211445 382 78
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /images/glow-right.png - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 __utma=40317373.275118156.1438113808.1438113808.1438113808.1;+__utmb=40317373.0.10.1438113808;+__utmc=40317373;+__utmz=40317373.1438113808.1.1.utmcsr=pavelkolev.com|utmccn=(referral)|utmcmd=referral|utmcct=/%d1%81%d0%b0%d0%b9%d1%82-%d0%be%d1%82-%d0%b1%d1%8a%d0%b4%d0%b5%d1%89%d0%b5%d1%82%d0%be/ http://nonalga.keydown.org/styles/styles.css nonalga.keydown.org 200 0 0 25821 690 31
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /images/background.jpg - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/styles/styles.css nonalga.keydown.org 200 0 0 512830 386 171
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /images/holder-left.png - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/styles/styles.css nonalga.keydown.org 200 0 0 55021 387 234
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /images/detonator.png - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/styles/styles.css nonalga.keydown.org 200 0 0 17150 385 249
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /images/x.png - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 - http://nonalga.keydown.org/styles/modalbasic.css nonalga.keydown.org 200 0 0 4211 381 265
+2015-07-29 20:03:40 W3SVC224 TANGO 91.196.125.129 GET /favicon.ico - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 __utmt=1;+__utma=40317373.275118156.1438113808.1438113808.1438113808.1;+__utmb=40317373.2.10.1438113808;+__utmc=40317373;+__utmz=40317373.1438113808.1.1.utmcsr=pavelkolev.com|utmccn=(referral)|utmcmd=referral|utmcct=/%d1%81%d0%b0%d0%b9%d1%82-%d0%be%d1%82-%d0%b1%d1%8a%d0%b4%d0%b5%d1%89%d0%b5%d1%82%d0%be/ http://nonalga.keydown.org/ nonalga.keydown.org 404 0 2 1203 656 249
+2015-07-29 20:04:02 W3SVC224 TANGO 91.196.125.129 GET /images/greenbutton.png - 80 - 94.26.106.229 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/44.0.2403.89+Safari/537.36 __utmt=1;+__utma=40317373.275118156.1438113808.1438113808.1438113808.1;+__utmb=40317373.2.10.1438113808;+__utmc=40317373;+__utmz=40317373.1438113808.1.1.utmcsr=pavelkolev.com|utmccn=(referral)|utmcmd=referral|utmcct=/%d1%81%d0%b0%d0%b9%d1%82-%d0%be%d1%82-%d0%b1%d1%8a%d0%b4%d0%b5%d1%89%d0%b5%d1%82%d0%be/ http://nonalga.keydown.org/styles/styles.css nonalga.keydown.org 200 0 0 10383 701 31
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-30 03:07:12
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-30 03:07:12 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 180.76.15.138 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - nonalga.keydown.org 304 0 0 230 307 702
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-30 19:31:30
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-30 19:31:29 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 66.249.64.172 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 404 0 2 1203 260 421
+2015-07-30 19:31:30 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 66.249.64.162 HTTP/1.1 Mozilla/5.0+(iPhone;+CPU+iPhone+OS+6_0+like+Mac+OS+X)+AppleWebKit/536.26+(KHTML,+like+Gecko)+Version/6.0+Mobile/10A5376e+Safari/8536.25+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 6596 417 468
+2015-07-30 19:40:55 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/jquery.simplemodal.1.4.3.min.js - 80 - 66.249.64.162 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 10038 279 608
+2015-07-30 19:40:59 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/siteController.js - 80 - 66.249.64.167 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 43006 262 748
+2015-07-30 19:41:00 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/nonalga.js - 80 - 66.249.64.172 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 263 255 140
+2015-07-30 19:41:01 W3SVC224 TANGO 91.196.125.129 GET /scripts/algo/AlgaeExperiment.js - 80 - 66.249.64.167 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 101284 264 296
+2015-07-30 19:41:04 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/rotate.js - 80 - 66.249.64.162 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 2588 254 140
+2015-07-30 19:41:06 W3SVC224 TANGO 91.196.125.129 GET /scripts/jquery/kinetic.js - 80 - 66.249.64.162 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 0 296661 258 717
+2015-07-30 19:41:06 W3SVC224 TANGO 91.196.125.129 GET /scripts/gol/gameField.js - 80 - 66.249.64.167 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - nonalga.keydown.org 200 0 64 0 257 202
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-30 20:28:35
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-30 20:28:35 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 188.165.15.55 HTTP/1.1 Mozilla/5.0+(compatible;+AhrefsBot/5.0;++http://ahrefs.com/robot/) - - nonalga.keydown.org 200 0 0 6596 170 514
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-30 21:45:57
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-30 21:45:56 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 180.76.15.151 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1;+rv:6.0.2)+Gecko/20100101+Firefox/6.0.2 - - nonalga.keydown.org 404 0 2 1222 191 327
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-30 22:13:14
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-30 22:13:13 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 180.76.15.155 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - nonalga.keydown.org 304 0 0 230 307 483
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2015-07-31 10:16:06
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2015-07-31 10:16:05 W3SVC224 TANGO 91.196.125.129 GET /robots.txt - 80 - 144.76.29.162 HTTP/1.0 Mozilla/5.0+(compatible;+MJ12bot/v1.4.5;+http://www.majestic12.co.uk/bot.php?+) - - nonalga.keydown.org 404 0 2 1222 180 140
+2015-07-31 10:16:20 W3SVC224 TANGO 91.196.125.129 GET / - 80 - 144.76.29.162 HTTP/1.0 Mozilla/5.0+(compatible;+MJ12bot/v1.4.5;+http://www.majestic12.co.uk/bot.php?+) - - nonalga.keydown.org 200 0 0 6615 323 234

@@ -1,0 +1,84 @@
+﻿<!doctype html>
+
+<html lang="bg">
+<head>
+    <meta charset="UTF-8" />
+    <title>Game Of Life</title>
+    <link href="styles/styles.css" rel="stylesheet"/>
+    <link href="styles/modalbasic.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.js"></script>
+    <script src="scripts/jquery/jquery.simplemodal.1.4.3.min.js"></script>
+    <script src="scripts/jquery/rotation.js"></script>
+    <script src="scripts/jquery/rotate-css.js"></script>
+    <script src="scripts/jquery/kinetic.js"></script>
+    <script src="scripts/jquery/RequestAnimationFrame.js"></script>
+    <script src="scripts/algo/AlgaeExperiment.js"></script>
+    <script src="scripts/gol/vibrate.js"></script>
+    <script src="scripts/gol/rotate.js"></script>
+    <script src="scripts/gol/gameGrid.js"></script>
+    <script src="scripts/gol/gameField.js"></script>
+    <script src="scripts/gol/unit.js"></script>
+    <script src="scripts/gol/food.js"></script>
+    <script src="scripts/gol/nonalga.js"></script>
+    <script src="scripts/gol/gameOfLife.js"></script>
+    <script src="scripts/gol/siteController.js"></script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-37074687-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+	</script>
+</head>
+<body>
+    <header id="main-header">
+        <nav>
+			<ul id="main-menu">
+				<li><a href="/" id="mission" title="some title here">Мисия</a></li>
+				<li><a href="/" id="foundings" title="some title here">Открития</a></li>
+				<li><a href="/" id="simulation" title="some title here">Симулатор</a></li>
+				<li><a href="/" id="diary" title="some title here">Дневник</a></li>
+				<li><a href="/" id="team" title="some title here">Екип</a></li>
+			</ul>
+		</nav>
+    </header>
+	<div id="wrapper">
+		<div id="main-content-wrapper">
+			<div id="main-content">
+                <article>
+                    <h1>Нашата мисия</h1>
+                    <p>Годината е 2115 (краят на света никога не идва навреме). Учените от Националната Астробиологическа Институция за Широкоспектърно-Космическа Валидация на Организми (НАИШ-КВО) са открили нещо, което наричат “интересна планета”. Интересното на планетата е, че в атмосферата ѝ има газове, които типично се произвеждат от живи организми. НАИШ-КВО решават да пратят екип от астронавти, заедно с няколко програмисти в наше лице, които да посетят планетата и да изследват ситуацията там - независимо какво ще струва това.</p><p>Когато достигнахме планетата след достатъчно дълго пътуване, за да изгледаме How I Met Your Mother, Дързост и Красота, както и израстването на едно цвете (последното не е филм), ние слязохме от Галактическия Обект за Транспорт на други Обекти (GOTO) и започнахме да изследваме планетата. Откритията ни показват, че няма достатъчно висши форми на живот, за да има с кого да си пием Бързия Интоксикант за Рехабилитация и Активизация (БИРА), но за сметка на това големи области от планетата са покрити от водоподобна слуз, в която по особено интересен начин живеят малки организми. Тези организми изглежда имат доста силен потенциал за развитие. Още повече, изследванията показват, че тези организми, докато са активни, могат да бъдат ползвани за произвеждане на Живо Извлечение с Вискозитет Алфа от Бързия Интоксикант за Рехабилитация и Активизация (ЖИВАБИРА). За съжаление организмите са твърде малко към този етап. Затова ги наричаме “водонедорасли”. Със сегашното темпо на развитие, няма да доживеем да създадем ЖИВАБИРА от водонедорасли.</p>
+                    <img src='images/astro.jpg' width='500' height='313' alt='astro img' class='astro' />
+                </article>
+			</div>
+		</div>
+        <div id="holder-left">
+            <button id="stable" class="redbutton">Gravity</button>
+            <div id="glow-left"></div>
+        </div>
+        <div id="holder-right">
+            <div id="detonator"><h4>300</h4><span>secs to detonation</span></div>
+            <div id="glow-right"></div>
+        </div>
+	</div>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37074687-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿@model  List<Sunglasses___Web.Models.ProductShortModel>
+@{
+    ViewBag.Title = "Нови";
+}
+
+<h2>Нови продукти</h2>
+@if (@Model.Count < 1)
+{
+    <h3>Няма нови продукти</h3>
+}
+else 
+{
+    <section id="search-results-wrap" class="clearfix panel recent">
+        <div id="search-results-inner">
+            <ul id="search-results" class="clearfix content">
+                @foreach (var prd in Model)
+                {
+                    <li>
+                        @Html.Partial("_ProductShort", prd)
+                    </li>
+                }
+            </ul>
+        </div>
+    </section>
+}
